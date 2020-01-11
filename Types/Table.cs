@@ -53,5 +53,60 @@ namespace OriginTablets.Types
         }
       }
     }
+
+    /// <summary>
+    /// Writes the table to a .tbl file.
+    /// </summary>
+    /// <param name="location">Where to write the .tbl file to.</param>
+    public void WriteToFile(string location, bool longPointers)
+    {
+      using (var output = new BinaryWriter(
+        new FileStream(location, FileMode.Create), Encoding.GetEncoding("shift_jis")))
+      {
+        if (longPointers == true) { output.Write(Count); }
+        else { output.Write((ushort)Count); }
+        // Write pointers to each text entry. Each pointer's location is equal to the byte length
+        // of the previous entry, plus 1 for the null terminator. An entry's byte length is equal to
+        // the number of characters in it multiplied by 2, plus the previous entry's pointer. 
+        // Pointers are unsigned shorts if longPointers is false, and unsigned ints otherwise. 
+        // A pointer is not written for the first entry, since the games assume its address is 0x0.
+        int lastOffset = 0;
+        for (int index = 1; index < Count; index += 1)
+        {
+          int result = 0;
+          // The first entry can just write its own length and store it.
+          // Beyond that, each entry needs to add the previous entry's offset to its own basic length.
+          if (longPointers == true)
+          {
+            result = (this[index - 1].Length * 4) + 1 + lastOffset;
+            output.Write(result);
+          }
+          else
+          {
+            result = (this[index - 1].Length * 2) + 1 + lastOffset;
+            output.Write((ushort)result);
+          }
+          lastOffset = result;
+        }
+        // A final pointer needs to be written to, pointing to the end of file.
+        // This is equal to the last offset plus the length of the last string.
+        if (longPointers == true) { output.Write((this.Last().Length * 4) + 1 + lastOffset); }
+        else { output.Write((ushort)((this.Last().Length * 2) + 1 + lastOffset)); }
+        // Write the bytes for each string. Once they've been fully written, write a null terminator.
+        foreach (string entry in this)
+        {
+          foreach (char character in entry)
+          {
+            char fullwidthCharacter = character;
+            if (SJISTables.ToFullwidth.ContainsKey(fullwidthCharacter))
+            {
+              fullwidthCharacter = SJISTables.ToFullwidth[fullwidthCharacter];
+            }
+            output.Write(fullwidthCharacter);
+          }
+          output.Write((byte)0x0);
+        }
+      }
+    }
   }
 }

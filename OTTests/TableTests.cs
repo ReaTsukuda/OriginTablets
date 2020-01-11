@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Linq;
 
 namespace OTTests
 {
@@ -26,6 +27,25 @@ namespace OTTests
       {
         Assert.AreEqual(exampleTable[index], knownCorrect[index]);
       }
+    }
+
+    /// <summary>
+    /// Checks that the result of writing a Table parsed from a vanilla EO3 playerskillnametable.tbl
+    /// matches the parsed file.
+    /// </summary>
+    [TestMethod]
+    public void CompareWrittenTableWithVanillaTable()
+    {
+      if (System.IO.File.Exists("Resources/EO3PSNT.tbl") == false)
+      {
+        throw new InternalTestFailureException("EO3PSNT.tbl is missing. Please copy a vanilla EO3 playerskillnametable.tbl to OTTests/Resources.");
+      }
+      var tableObject = new OriginTablets.Types.Table("Resources/EO3PSNT.tbl", false);
+      tableObject.WriteToFile("Resources/EO3PSNTTemp.tbl", false);
+      var originalBytes = System.IO.File.ReadAllBytes("Resources/EO3PSNT.tbl");
+      var newBytes = System.IO.File.ReadAllBytes("Resources/EO3PSNTTemp.tbl");
+      Assert.IsTrue(originalBytes.SequenceEqual(newBytes));
+      System.IO.File.Delete("Resources/EO3PSNTTemp.tbl");
     }
   }
 }
