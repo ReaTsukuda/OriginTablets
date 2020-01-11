@@ -93,7 +93,8 @@ namespace OriginTablets.Support
       { '＆', '&' },
       { '％', '%' },
       { '　', ' ' },
-      { '／', '/' }
+      { '／', '/' },
+      { '，', ',' }
     };
 
     /// <summary>
@@ -180,6 +181,7 @@ namespace OriginTablets.Support
       { '%', '％' },
       { ' ', '　' },
       { '/', '／' }
+      { ',', '，' }
     };
   }
 }
