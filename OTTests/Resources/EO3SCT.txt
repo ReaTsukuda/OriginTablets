@@ -1,0 +1,2662 @@
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+- -
+Stat Increase
+Learn skill; MAX HP ↑
+MAX HP ↑
+MAX HP ↑
+MAX HP ↑
+MAX HP ↑
+MAX HP ↑
+MAX HP ↑↑
+MAX HP ↑↑
+MAX HP ↑↑
+MAX HP ↑↑
+Stat Increase
+Learn skill; MAX TP ↑
+MAX TP ↑
+MAX TP ↑
+MAX TP ↑
+MAX TP ↑
+MAX TP ↑
+MAX TP ↑↑
+MAX TP ↑↑
+MAX TP ↑↑
+MAX TP ↑↑
+Search Skill
+Learn skill; TP: 2
+Heal rate ↑ TP: 2
+Heal rate ↑ TP: 2
+Heal rate ↑↑↑ TP: 4 ↑
+Heal rate ↑ TP: 4
+Heal rate ↑ TP: 4
+Heal rate ↑↑↑ TP: 8 ↑
+Heal rate ↑↑ TP: 8
+Heal rate ↑↑ TP: 8
+Heal rate ↑↑ TP: 8
+Special Skill
+Learn skill; EXP gain ↑
+EXP gain ↑
+EXP gain ↑
+EXP gain ↑
+EXP gain ↑
+EXP gain ↑
+EXP gain ↑
+EXP gain ↑
+EXP gain ↑
+EXP gain ↑
+Stat Increase
+VIT+1
+VIT+2
+VIT+3
+VIT+4
+VIT+5
+VIT+5
+VIT+7
+VIT+8
+VIT+9
+VIT+10
+Stat Increase
+AGI+1
+AGI+2
+AGI+3
+AGI+4
+AGI+5
+AGI+5
+AGI+7
+AGI+8
+AGI+9
+AGI+10
+Stat Increase
+LUC+1
+LUC+2
+LUC+3
+LUC+4
+LUC+5
+LUC+5
+LUC+7
+LUC+8
+LUC+9
+LUC+1
+Stat Increase
+Escape rate ↑ 2%
+Escape rate ↑ 4%
+Escape rate ↑ 6%
+Escape rate ↑ 8%
+Escape rate ↑ 10%
+Escape rate ↑ 12%
+Escape rate ↑ 14%
+Escape rate ↑ 16%
+Escape rate ↑ 18%
+Escape rate ↑ 20%
+Stat Increase
+Learn skill
+Limit accumulation ↑
+Limit accumulation ↑
+Limit accumulation ↑
+Limit accumulation ↑
+Limit accumulation ↑
+Limit accumulation ↑
+Limit accumulation ↑
+Limit accumulation ↑
+Limit accumulation ↑
+Search Skill
+Learn skill; Chop+1
+Chop+2
+Chop+3
+Chop+4
+Chop+5
+Chop+6
+Chop+7
+Chop+8
+Chop+9
+Chop+10
+Search Skill
+Learn skill; Mine+1
+Mine+2
+Mine+3
+Mine+4
+Mine+5
+Mine+6
+Mine+7
+Mine+8
+Mine+9
+Mine+10
+Search Skill
+Learn skill; Take+1
+Take+2
+Take+3
+Take+4
+Take+5
+Take+6
+Take+7
+Take+8
+Take+9
+Take+10
+Class Skill
+Learn skill
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+Passive Skill
+Learn skill
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Passive Skill
+Learn skill
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑↑
+Heal rate ↑↑
+Heal rate ↑↑
+Heal rate ↑↑
+Passive Skill
+Learn skill
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑↑
+Heal rate ↑↑
+Heal rate ↑↑
+Heal rate ↑↑
+Heal rate ↑↑↑
+Passive Skill
+Learn skill
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Passive Skill
+Learn skill
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+Support Skill
+Learn skill; TP: 8
+Physical damage ↑ TP: 8
+Physical damage ↑ TP: 9 ↑
+Physical damage ↑ TP: 10 ↑
+Physical damage ↑ TP: 11 ↑
+Physical damage ↑ TP: 12 ↑
+Physical damage ↑ TP: 13 ↑
+Physical damage ↑ TP: 14 ↑
+Physical damage ↑ TP: 15 ↑
+Physical damage ↑ TP: 16 ↑
+Support Skill
+Learn skill; TP: 8
+Physical defense ↑ TP: 8
+Physical defense ↑ TP: 9 ↑
+Physical defense ↑ TP: 10 ↑
+Physical defense ↑ TP: 11 ↑
+Physical defense ↑ TP: 12 ↑
+Physical defense ↑ TP: 13 ↑
+Physical defense ↑ TP: 14 ↑
+Physical defense ↑ TP: 15 ↑
+Physical defense ↑ TP: 16 ↑
+Support Skill
+Learn skill; TP: 6
+MAX HP ↑ TP: 6
+MAX HP ↑ TP: 7 ↑
+MAX HP ↑ TP: 7
+MAX HP ↑ TP: 8 ↑
+MAX HP ↑ TP: 8
+MAX HP ↑ TP: 9 ↑
+MAX HP ↑ TP: 9
+MAX HP ↑ TP: 10 ↑
+MAX HP ↑↑ TP: 10
+Healing Skill
+Learn skill; TP: 4
+Heal rate ↑ TP: 4
+Heal rate ↑ TP: 5 ↑
+Heal rate ↑ TP: 5
+Heal rate ↑ TP: 6 ↑
+Heal rate ↑ TP: 6
+Heal rate ↑ TP: 7 ↑
+Heal rate ↑ TP: 7
+Heal rate ↑ TP: 8 ↑
+Heal rate ↑ TP: 8
+Healing Skill
+Learn skill; TP: 8
+TP recovery rate ↑ TP: 8
+TP recovery rate ↑ TP: 9 ↑
+TP recovery rate ↑ TP: 9
+TP recovery rate ↑ TP: 10 ↑
+TP recovery rate ↑ TP: 10
+TP recovery rate ↑ TP: 11 ↑
+TP recovery rate ↑ TP: 11
+TP recovery rate ↑ TP: 12 ↑
+TP recovery rate ↑ TP: 12
+Special Skill
+Learn skill; TP: 12
+Damage ↑ TP: 12
+Damage ↑ TP: 13 ↑
+Damage ↑ TP: 13
+Damage ↑ TP: 14 ↑
+Damage ↑ TP: 14
+Damage ↑↑ TP: 15 ↑
+Damage ↑↑ TP: 15
+Damage ↑↑ TP: 16 ↑
+Damage ↑↑ TP: 16
+Support Skill
+Learn skill; TP: 6
+Fire resistance ↑ TP: 7 ↑
+Fire resistance ↑ TP: 8 ↑
+Fire resistance ↑ TP: 9 ↑
+Fire resistance ↑ TP: 10 ↑
+
+
+
+
+
+Support Skill
+Learn skill; TP: 6
+Ice resistance ↑ TP: 7 ↑
+Ice resistance ↑ TP: 8 ↑
+Ice resistance ↑ TP: 9 ↑
+Ice resistance ↑ TP: 10 ↑
+
+
+
+
+
+Support Skill
+Learn skill; TP: 6
+Volt resistance ↑ TP: 7 ↑
+Volt resistance ↑ TP: 8 ↑
+Volt resistance ↑ TP: 9 ↑
+Volt resistance ↑ TP: 10 ↑
+
+
+
+
+
+Special Skill
+Learn skill; TP: 12
+Damage ↑ TP: 12
+Damage ↑ TP: 13 ↑
+Damage ↑ TP: 14 ↑
+Damage ↑ TP: 15 ↑
+Damage ↑↑ TP: 16 ↑
+Damage ↑↑ TP: 17 ↑
+Damage ↑↑ TP: 18 ↑
+Damage ↑↑ TP: 19 ↑
+Damage ↑↑ TP: 20 ↑
+Support Skill
+Learn skill; TP: 12
+TP: 10 ↓
+TP: 8 ↓
+TP: 6 ↓
+TP: 4 ↓
+
+
+
+
+
+Healing Skill
+Learn skill; TP: 6
+Heal rate ↑ TP: 6
+Heal rate ↑ TP: 7 ↑
+Heal rate ↑ TP: 8 ↑
+Heal rate ↑ TP: 9 ↑
+Heal rate ↑ TP: 10 ↑
+Heal rate ↑ TP: 11 ↑
+Heal rate ↑ TP: 12 ↑
+Heal rate ↑ TP: 13 ↑
+Heal rate ↑ TP: 14 ↑
+Special Skill
+Learn skill; TP: 12
+TP: 10 ↓
+TP: 8 ↓
+TP: 6 ↓
+TP: 4 ↓
+
+
+
+
+
+Class Skill
+Learn skill; Physical damage ↑
+Physical damage ↑
+Physical damage ↑
+Physical damage ↑
+Physical damage ↑
+Physical damage ↑
+Physical damage ↑
+Physical damage ↑
+Physical damage ↑
+Physical damage ↑
+Mastery Skill
+Learn skill; Sword damage ↑
+Sword damage ↑
+Sword damage ↑
+Sword damage ↑
+Sword damage ↑
+Sword damage ↑
+Sword damage ↑
+Sword damage ↑
+Sword damage ↑
+Sword damage ↑
+Mastery Skill
+Learn skill; Club damage ↑
+Club damage ↑
+Club damage ↑
+Club damage ↑
+Club damage ↑
+Club damage ↑
+Club damage ↑
+Club damage ↑
+Club damage ↑
+Club damage ↑
+Passive Skill
+Learn skill
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑↑
+Heal rate ↑↑
+Heal rate ↑↑
+Heal rate ↑↑↑
+Passive Skill
+Learn skill
+Stun rate ↑
+Stun rate ↑
+Stun rate ↑
+Stun rate ↑
+Stun rate ↑
+Stun rate ↑
+Stun rate ↑
+Stun rate ↑
+Stun rate ↑
+Passive Skill
+Learn skill
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑↑
+Activation rate ↑↑
+Activation rate ↑↑
+Activation rate ↑↑
+Activation rate ↑↑
+Special Skill
+Learn skill; TP: 2
+Physical damage ↑ TP: 3 ↑
+Physical damage ↑ TP: 4 ↑
+Physical damage ↑ TP: 5 ↑
+Physical damage ↑ TP: 6 ↑
+
+
+
+
+
+Support Skill
+Learn skill; TP: 2
+Physical damage ↑ HP consumed ↑ TP: 2
+Physical damage ↑ HP consumed ↑ TP: 2
+Physical damage ↑ HP consumed ↑ TP: 2
+Physical damage ↑ HP consumed ↑ TP: 2
+Physical damage ↑ HP consumed ↑ TP: 2
+Physical damage ↑ HP consumed ↑ TP: 2
+Physical damage ↑ HP consumed ↑ TP: 2
+Physical damage ↑ HP consumed ↑ TP: 2
+Physical damage ↑ HP consumed ↑ TP: 2
+Support Skill
+Learn skill; TP: 7
+Enemy defense ↓ TP: 7
+Ailing enemy defense ↓↓ TP: 7
+Enemy defense ↓ TP: 8 ↑
+Ailing enemy defense ↓↓ TP: 8
+Enemy defense ↓ TP: 8
+Ailing enemy defense ↓↓ TP: 8
+Enemy defense ↓ TP: 9 ↑
+Ailing enemy defense ↓↓ TP: 9
+Enemy defense ↓ TP: 10 ↑
+Support Skill
+Learn skill; TP: 12
+TP: 10 ↓
+TP: 8 ↓
+TP: 6 ↓
+TP: 3 ↓
+
+
+
+
+
+Sword Skill
+Learn skill; TP: 4
+Damage ↑ TP: 4
+Damage ↑ TP: 5 ↑
+Damage ↑ TP: 5
+Damage ↑ TP: 6 ↑
+Damage ↑↑ TP: 6
+Damage ↑↑ TP: 7 ↑
+Damage ↑↑ TP: 7
+Damage ↑↑ TP: 8 ↑
+Damage ↑↑ TP: 8
+Sword Skill
+Learn skill; 2-3 times TP: 7
+Damage ↑ 2-3 times TP: 7
+Damage ↑ 2-4 times ↑ TP: 8 ↑
+Damage ↑ 2-4 times TP: 8
+Damage ↑ 2-4 times TP: 9 ↑
+Damage ↑ 2-5 times ↑ TP: 9
+Damage ↑ 2-5 times TP: 10 ↑
+Damage ↑ 2-5 times TP: 10
+Damage ↑ 2-6 times ↑ TP: 11 ↑
+Damage ↑ 3-6 times ↑ TP: 12 ↑
+Sword Skill
+Learn skill; TP: 8
+Damage ↑ TP: 8
+Damage ↑ TP: 9 ↑
+Damage ↑ TP: 9
+Damage ↑ TP: 10 ↑
+Damage ↑ TP: 10
+Damage ↑ TP: 11 ↑
+Damage ↑ TP: 11
+Damage ↑ TP: 12 ↑
+Damage ↑ TP: 12
+Sword Skill
+Learn skill; TP: 12
+Damage ↑ TP: 12
+Damage ↑ TP: 13 ↑
+Damage ↑ TP: 13
+Damage ↑ TP: 14 ↑
+Damage ↑ TP: 14
+Damage ↑ TP: 15 ↑
+Damage ↑ TP: 16 ↑
+Damage ↑ TP: 17 ↑
+Damage ↑ TP: 18 ↑
+Sword Skill
+Learn skill; 3 times TP: 13
+Damage ↑ 3 times TP: 14 ↑
+Damage ↑ TP: 15 ↑
+3-4 times ↑ TP: 17 ↑
+Damage ↑ 3-4 times TP: 18 ↑
+Damage ↑ 3-4 times TP: 19 ↑
+3-5 times ↑ TP: 22 ↑
+Damage ↑ 3-5 times TP: 23 ↑
+Damage ↑ 3-5 times TP: 24 ↑
+Damage ↑ 4-5 times ↑ TP: 27 ↑
+Club Skill
+Learn skill; TP: 4
+Damage ↑ Confuse rate ↑ TP: 4
+Damage ↑ Confuse rate ↑ TP: 5 ↑
+Damage ↑ Confuse rate ↑ TP: 5
+Damage ↑ Confuse rate ↑ TP: 6 ↑
+Damage ↑ Confuse rate ↑ TP: 6
+Damage ↑ Confuse rate ↑ TP: 7 ↑
+Damage ↑ Confuse rate ↑ TP: 7
+Damage ↑ Confuse rate ↑ TP: 8 ↑
+Damage ↑ Confuse rate ↑ TP: 8
+Club Skill
+Learn skill; TP: 6
+Damage ↑ Arm bind ↑ TP: 6
+Damage ↑ Arm bind ↑ TP: 7 ↑
+Damage ↑ Arm bind ↑ TP: 7
+Damage ↑ Arm bind ↑ TP: 8 ↑
+Damage ↑ Arm bind ↑ TP: 8
+Damage ↑↑ Arm bind ↑ TP: 9 ↑
+Damage ↑↑ Arm bind ↑ TP: 9
+Damage ↑↑ Arm bind ↑ TP: 10 ↑
+Damage ↑↑ Arm bind ↑ TP: 10
+Club Skill
+Learn skill; TP: 8
+Damage ↑ TP: 8
+Damage ↑ TP: 9 ↑
+Damage ↑ TP: 9
+Damage ↑ TP: 10 ↑
+Damage ↑ TP: 10
+Damage ↑ TP: 11 ↑
+Damage ↑ TP: 11
+Damage ↑ TP: 12 ↑
+Damage ↑↑ TP: 12
+Club Skill
+Learn skill; 2-5 times TP: 10
+Damage ↑ 2-5 times TP: 11 ↑
+Damage ↑ 2-5 times TP: 12 ↑
+2-6 times ↑ TP: 14 ↑ Accuracy ↓
+Damage ↑ 2-6 times TP: 15 ↑
+2-7 times ↑ TP: 17 ↑
+Damage ↑ 3-7 times TP: 18 ↑
+2-8 times ↑ TP: 20 ↑ Accuracy ↓
+Damage ↑ 2-8 times TP: 22 ↑
+2-9 times ↑ TP: 25 ↑
+Class Skill
+Learn skill; Physical defense ↑
+Physical defense ↑
+Physical defense ↑
+Physical defense ↑
+Physical defense ↑
+Physical defense ↑
+Physical defense ↑
+Physical defense ↑
+Physical defense ↑
+Physical defense ↑
+Mastery Skill
+Learn skill; Spear damage ↑
+Spear damage ↑
+Spear damage ↑
+Spear damage ↑
+Spear damage ↑
+Spear damage ↑
+Spear damage ↑
+Spear damage ↑
+Spear damage ↑
+Spear damage ↑
+Mastery Skill
+Learn skill; Physical defense ↑
+Physical defense ↑
+Physical defense ↑
+Physical defense ↑
+Physical defense ↑
+Physical defense ↑
+Physical defense ↑
+Physical defense ↑
+Physical defense ↑
+Physical defense ↑
+Passive Skill
+Learn skill
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+
+
+
+
+
+Passive Skill
+Learn skill
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+
+
+
+
+
+Passive Skill
+Learn skill
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑↑
+Support Skill
+Learn skill; TP: 5
+Physical defense ↑ TP: 5
+Physical defense ↑ TP: 6 ↑
+Physical defense ↑ TP: 6
+Physical defense ↑ TP: 7 ↑
+Physical defense ↑ TP: 7
+Physical defense ↑ TP: 8 ↑
+Physical defense ↑ TP: 8
+Physical defense ↑ TP: 9 ↑
+Physical defense ↑ TP: 10 ↑
+Support Skill
+Learn skill; TP: 3
+Draw rate ↑ TP: 3
+Draw rate ↑ TP: 4 ↑
+Draw rate ↑ TP: 4
+Draw rate ↑ TP: 5 ↑
+Draw rate ↑ TP: 5
+Draw rate ↑ TP: 6 ↑
+Draw rate ↑ TP: 6
+Draw rate ↑ TP: 7 ↑
+Draw rate ↑ TP: 7
+Support Skill
+Learn skill; TP: 12
+TP: 10 ↓
+TP: 8 ↓
+TP: 6 ↓
+TP: 4 ↓
+
+
+
+
+
+Spear Skill
+Learn skill; TP: 5
+Damage ↑ TP: 5
+Damage ↑ TP: 6 ↑
+Damage ↑ TP: 6
+Damage ↑ TP: 7 ↑
+Damage ↑ TP: 7
+Damage ↑ TP: 8 ↑
+Damage ↑ TP: 8
+Damage ↑ TP: 9 ↑
+Damage ↑ TP: 9
+Spear Skill
+Learn skill; TP: 7
+Damage ↑ TP: 7
+Damage ↑ TP: 8 ↑
+Damage ↑ TP: 8
+Damage ↑ TP: 9 ↑
+Damage ↑ TP: 9
+Damage ↑ TP: 10 ↑
+Damage ↑ TP: 10
+Damage ↑ TP: 11 ↑
+Damage ↑ TP: 11
+Spear Skill
+Learn skill; TP: 12
+Damage ↑ TP: 12
+Damage ↑ TP: 13 ↑
+Damage ↑ TP: 13
+Damage ↑ TP: 14 ↑
+Damage ↑ TP: 14
+Damage ↑ TP: 15 ↑
+Damage ↑ TP: 15
+Damage ↑ TP: 16 ↑
+Damage ↑ TP: 16
+Shield Skill
+Learn skill; TP: 3
+Physical resistance ↑ TP: 3
+Physical resistance ↑ TP: 4 ↑
+Physical resistance ↑ TP: 4
+Physical resistance ↑ TP: 5 ↑
+Physical resistance ↑ TP: 5
+Physical resistance ↑ TP: 6 ↑
+Physical resistance ↑ TP: 6
+Physical resistance ↑ TP: 7 ↑
+Physical resistance ↑ TP: 9 ↑
+Shield Skill
+Learn skill; TP: 4
+Fire resistance ↑ TP: 4
+Fire resistance ↑ TP: 5 ↑
+Fire resistance ↑ TP: 5
+Fire resistance ↑ TP: 6 ↑
+Fire resistance ↑ TP: 6
+Fire resistance ↑ TP: 7 ↑
+Fire resistance ↑ TP: 7
+Fire resistance ↑ TP: 8 ↑
+Null Fire TP: 12 ↑
+Shield Skill
+Learn skill; TP: 4
+Ice resistance ↑ TP: 4
+Ice resistance ↑ TP: 5 ↑
+Ice resistance ↑ TP: 5
+Ice resistance ↑ TP: 6 ↑
+Ice resistance ↑ TP: 6
+Ice resistance ↑ TP: 7 ↑
+Ice resistance ↑ TP: 7
+Ice resistance ↑ TP: 8 ↑
+Null Ice TP: 12 ↑
+Shield Skill
+Learn skill; TP: 4
+Volt resistance ↑ TP: 4
+Volt resistance ↑ TP: 5 ↑
+Volt resistance ↑ TP: 5
+Volt resistance ↑ TP: 6 ↑
+Volt resistance ↑ TP: 6
+Volt resistance ↑ TP: 7 ↑
+Volt resistance ↑ TP: 7
+Volt resistance ↑ TP: 8 ↑
+Null volt TP: 12 ↑
+Shield Skill
+Learn skill; TP: 4
+Defense ↑ TP: 4
+Defense ↑ TP: 5 ↑
+Defense ↑ TP: 5
+Defense ↑ TP: 6 ↑
+Defense ↑ TP: 6
+Defense ↑ TP: 7 ↑
+Defense ↑ TP: 7
+Defense ↑ TP: 8 ↑
+Defense ↑ TP: 8
+Shield Skill
+Learn skill; TP: 18
+TP: 15 ↓
+TP: 12 ↓
+TP: 9 ↓
+TP: 6 ↓
+
+
+
+
+
+Search Skill
+Learn skill; 30 steps TP: 6
+Encounter rate ↓ 40 steps ↑ TP: 7 ↑
+Encounter rate ↓ 50 steps ↑ TP: 8 ↑
+Encounter rate ↓ 60 steps ↑ TP: 9 ↑
+Encounter rate ↓ 80 steps ↑ TP: 10 ↑
+
+
+
+
+
+Class Skill
+Learn skill
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+Mastery Skill
+Learn skill; Rapier damage ↑
+Rapier damage ↑
+Rapier damage ↑
+Rapier damage ↑
+Rapier damage ↑
+Rapier damage ↑
+Rapier damage ↑
+Rapier damage ↑
+Rapier damage ↑
+Rapier damage ↑
+Mastery Skill
+Learn skill; Gun damage ↑
+Gun damage ↑
+Gun damage ↑
+Gun damage ↑
+Gun damage ↑
+Gun damage ↑
+Gun damage ↑
+Gun damage ↑
+Gun damage ↑
+Gun damage ↑
+Passive Skill
+Learn skill; 2 times
+Activation rate ↑ 2 times
+Activation rate ↑ 2 times
+Activation rate ↑ 2 times
+Activation rate ↑ 2 times
+Activation rate ↑ 2 times
+Activation rate ↑ 2 times
+Activation rate ↑ 3 times ↑
+Activation rate ↑ 3 times
+Activation rate ↑ 4 times ↑
+Passive Skill
+Learn skill; Critical rate ↑
+Critical rate ↑
+Critical rate ↑
+Critical rate ↑
+Critical rate ↑
+Critical rate ↑
+Critical rate ↑
+Critical rate ↑
+Critical rate ↑
+Critical rate ↑
+Passive Skill
+Learn skill; Limit accumulation ↑
+Limit accumulation ↑
+Limit accumulation ↑
+Limit accumulation ↑
+Limit accumulation ↑
+
+
+
+
+
+Special Skill
+Learn skill; TP: 5
+Enemy defense ↓ TP: 6 ↑
+Enemy defense ↓ TP: 7 ↑
+Enemy defense ↓ TP: 8 ↑
+Enemy defense ↓ TP: 9 ↑
+
+
+
+
+
+Gun Skill
+Learn skill; 2 times TP: 4
+Damage ↑ 2 times TP: 5 ↑
+2-3 times ↑ TP: 6 ↑
+Damage ↑ 2-3 times TP: 7 ↑
+Damage ↑ 2-3 times TP: 8 ↑
+2-4 times ↑ TP: 9 ↑
+Damage ↑ 2-4 times TP: 10 ↑
+Damage ↑ 2-4 times TP: 11 ↑
+Damage ↑ 2-4 times TP: 12 ↑
+2-5 times ↑ TP: 14 ↑
+Gun Skill
+Learn skill; TP: 10
+Damage ↑ TP: 10
+Damage ↑ TP: 11 ↑
+Damage ↑ TP: 11
+Damage ↑ TP: 12 ↑
+Damage ↑ TP: 12
+Damage ↑↑ TP: 13 ↑
+Damage ↑↑ TP: 14 ↑
+Damage ↑↑ TP: 15 ↑
+Damage ↑↑ TP: 16 ↑
+Gun Skill
+Learn skill; TP: 6
+Damage ↑ Multiple activations ↑ TP: 6
+Damage ↑ Multiple activations ↑ TP: 7 ↑
+Damage ↑ Multiple activations ↑ TP: 7
+Damage ↑ Multiple activations ↑ TP: 8 ↑
+Damage ↑ Multiple activations ↑ TP: 9 ↑
+Damage ↑ Multiple activations ↑ TP: 10 ↑
+Damage ↑ Multiple activations ↑ TP: 11 ↑
+Damage ↑ Multiple activations ↑ TP: 12 ↑
+Damage ↑ Multiple activations ↑ TP: 13 ↑
+Gun Skill
+Learn skill; TP: 6
+Damage ↑ Multiple activations ↑ TP: 6
+Damage ↑ Multiple activations ↑ TP: 7 ↑
+Damage ↑ Multiple activations ↑ TP: 7
+Damage ↑ Multiple activations ↑ TP: 8 ↑
+Damage ↑ Multiple activations ↑ TP: 9 ↑
+Damage ↑ Multiple activations ↑ TP: 10 ↑
+Damage ↑ Multiple activations ↑ TP: 11 ↑
+Damage ↑ Multiple activations ↑ TP: 12 ↑
+Damage ↑ Multiple activations ↑ TP: 13 ↑
+Gun Skill
+Learn skill; TP: 6
+Damage ↑ Multiple activations ↑ TP: 6
+Damage ↑ Multiple activations ↑ TP: 7 ↑
+Damage ↑ Multiple activations ↑ TP: 7
+Damage ↑ Multiple activations ↑ TP: 8 ↑
+Damage ↑ Multiple activations ↑ TP: 9 ↑
+Damage ↑ Multiple activations ↑ TP: 10 ↑
+Damage ↑ Multiple activations ↑ TP: 11 ↑
+Damage ↑ Multiple activations ↑ TP: 12 ↑
+Damage ↑ Multiple activations ↑ TP: 13 ↑
+Rapier Skill
+Learn skill; TP: 6
+Damage ↑ Success rate ↑ TP: 6
+Damage ↑ Success rate ↑ TP: 7 ↑
+Damage ↑ Success rate ↑ TP: 7
+Damage ↑ Success rate ↑ TP: 8 ↑
+Damage ↑ Success rate ↑ TP: 8
+Damage ↑ Success rate ↑ TP: 9 ↑
+Damage ↑ Success rate ↑ TP: 10 ↑
+Damage ↑ Success rate ↑ TP: 11 ↑
+Damage ↑ Success rate ↑ TP: 12 ↑
+Rapier Skill
+Learn skill; TP: 8
+Damage ↑ Head bind ↑ TP: 9 ↑
+Damage ↑ Head bind ↑ TP: 10 ↑
+Damage ↑ Head bind ↑ TP: 11 ↑
+Damage ↑ Head bind ↑ TP: 12 ↑
+Damage ↑↑ Head bind ↑ TP: 13 ↑
+Damage ↑↑ Head bind ↑ TP: 14 ↑
+Damage ↑↑ Head bind ↑ TP: 15 ↑
+Damage ↑↑ Head bind ↑ TP: 16 ↑
+Damage ↑↑ Head bind ↑ TP: 17 ↑
+Rapier Skill
+Learn skill; TP: 6
+Damage ↑ Multiple activations ↑ TP: 6
+Damage ↑ Multiple activations ↑ TP: 7 ↑
+Damage ↑ Multiple activations ↑ TP: 7
+Damage ↑ Multiple activations ↑ TP: 8 ↑
+Damage ↑ Multiple activations ↑ TP: 9 ↑
+Damage ↑ Multiple activations ↑ TP: 10 ↑
+Damage ↑ Multiple activations ↑ TP: 11 ↑
+Damage ↑ Multiple activations ↑ TP: 12 ↑
+Damage ↑ Multiple activations ↑ TP: 13 ↑
+Rapier Skill
+Learn skill; TP: 6
+Damage ↑ Multiple activations ↑ TP: 6
+Damage ↑ Multiple activations ↑ TP: 7 ↑
+Damage ↑ Multiple activations ↑ TP: 7
+Damage ↑ Multiple activations ↑ TP: 8 ↑
+Damage ↑ Multiple activations ↑ TP: 9 ↑
+Damage ↑ Multiple activations ↑ TP: 10 ↑
+Damage ↑ Multiple activations ↑ TP: 11 ↑
+Damage ↑ Multiple activations ↑ TP: 12 ↑
+Damage ↑ Multiple activations ↑ TP: 13 ↑
+Rapier Skill
+Learn skill; TP: 6
+Damage ↑ Multiple activations ↑ TP: 6
+Damage ↑ Multiple activations ↑ TP: 7 ↑
+Damage ↑ Multiple activations ↑ TP: 7
+Damage ↑ Multiple activations ↑ TP: 8 ↑
+Damage ↑ Multiple activations ↑ TP: 9 ↑
+Damage ↑ Multiple activations ↑ TP: 10 ↑
+Damage ↑ Multiple activations ↑ TP: 11 ↑
+Damage ↑ Multiple activations ↑ TP: 12 ↑
+Damage ↑ Multiple activations ↑ TP: 13 ↑
+Gun/Rapier Skill
+Learn skill; 1-2 times TP: 19
+Damage ↑ 1-2 times TP: 20 ↑
+Damage ↑ 1-2 times TP: 21 ↑
+Damage ↑ 1-3 times ↑ TP: 26 ↑
+Damage ↑ 1-3 times TP: 27 ↑
+Damage ↑ 1-3 times TP: 28 ↑
+Damage ↑ 1-3 times TP: 29 ↑
+Damage ↑ 1-3 times TP: 30 ↑
+Damage ↑ 1-3 times TP: 31 ↑
+Damage ↑ 1-3 times TP: 32 ↑
+Search Skill
+Learn skill; 30 steps TP: 3
+Encounter rate ↑ 35 steps ↑ TP: 3
+Encounter rate ↑ 40 steps ↑ TP: 3
+Encounter rate ↑ 45 steps ↑ TP: 3
+Encounter rate ↑ 50 steps ↑ TP: 3
+
+
+
+
+
+Class Skill
+Learn skill
+TP consumed ↓
+TP consumed ↓
+TP consumed ↓
+TP consumed ↓
+TP consumed ↓
+TP consumed ↓
+TP consumed ↓
+TP consumed ↓
+TP consumed ↓
+Passive Skill
+Learn skill
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Passive Skill
+Learn skill; Evade rate ↑
+Evade rate ↑
+Evade rate ↑
+Evade rate ↑
+Evade rate ↑
+Evade rate ↑
+Evade rate ↑
+Evade rate ↑
+Evade rate ↑
+Evade rate ↑
+Passive Skill
+Learn skill
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+Passive Skill
+Learn skill
+Damage ↑
+Damage ↑
+Damage ↑↑
+Damage ↑↑
+Damage ↑↑
+Damage ↑↑↑
+Damage ↑↑↑
+Damage ↑↑↑
+Damage ↑↑↑↑
+Passive Skill
+Learn skill; Knife damage ↑
+Knife damage ↑
+Knife damage ↑
+Knife damage ↑
+Knife damage ↑
+Knife damage ↑
+Knife damage ↑
+Knife damage ↑
+Knife damage ↑
+Knife damage ↑
+Special Skill
+Learn skill; TP: 3
+Success rate ↑ TP: 3
+Success rate ↑ TP: 4 ↑
+Success rate ↑ TP: 4
+Success rate ↑ TP: 5 ↑
+Success rate ↑ TP: 5
+Success rate ↑ TP: 6 ↑
+Success rate ↑ TP: 6
+Success rate ↑↑ TP: 9 ↑
+Success rate ↑↑↑ TP: 9
+Support Skill
+Learn skill; TP: 5
+Draw rate ↑ TP: 5
+Draw rate ↑ TP: 6 ↑
+Draw rate ↑ TP: 6
+Draw rate ↑ TP: 7 ↑
+Draw rate ↑ TP: 7
+Draw rate ↑ TP: 8 ↑
+Draw rate ↑ TP: 8
+Draw rate ↑ TP: 9 ↑
+Draw rate ↑ TP: 9
+Support Skill
+Learn skill; TP: 5
+Evade rate ↑ TP: 5
+Evade rate ↑ TP: 6 ↑
+Evade rate ↑ TP: 6
+Evade rate ↑ TP: 7 ↑
+Evade rate ↑ TP: 7
+Evade rate ↑ TP: 8 ↑
+Evade rate ↑ TP: 8
+Evade rate ↑ TP: 9 ↑
+Evade rate ↑ TP: 10 ↑
+Special Skill
+Learn skill; TP: 10
+
+
+
+
+
+
+
+
+
+Counter Skill
+Learn skill; TP: 4
+Damage ↑ Damage/success ↑ TP: 4
+Damage ↑ Damage/success ↑ TP: 5 ↑
+Damage ↑ Damage/success ↑ TP: 5
+Damage ↑ Damage/success ↑ TP: 6 ↑
+Damage ↑ Damage/success ↑ TP: 6
+Damage ↑ Damage/success ↑ TP: 7 ↑
+Damage ↑ Damage/success ↑ TP: 7
+Damage ↑ Damage/success ↑ TP: 8 ↑
+Damage ↑ Damage/success ↑ TP: 8
+Special Skill
+Learn skill; TP: 10
+Decoy HP ↑ TP: 9 ↓
+Decoy HP ↑ TP: 8 ↓
+Decoy HP ↑ TP: 7 ↓
+Decoy HP ↑ TP: 6 ↓
+
+
+
+
+
+Support Skill
+Learn skill; TP: 3
+Activation rate ↑ TP: 4 ↑
+Activation rate ↑ TP: 5 ↑
+Activation rate ↑ TP: 6 ↑
+Activation rate ↑ TP: 7 ↑
+
+
+
+
+
+Ninjutsu Skill
+Learn skill; TP: 4
+Damage ↑ Success rate ↑ TP: 4
+Damage ↑ Success rate ↑ TP: 5 ↑
+Damage ↑ Success rate ↑ TP: 5
+Damage ↑ Success rate ↑ TP: 6 ↑
+Damage ↑ Success rate ↑ TP: 6
+Damage ↑ Success rate ↑ TP: 7 ↑
+Damage ↑ Success rate ↑ TP: 7
+Damage ↑ Success rate ↑ TP: 8 ↑
+Damage ↑↑ Success rate ↑ TP: 8
+Knife Skill
+Learn skill; TP: 6
+Damage ↑ Leg bind ↑ TP: 6
+Damage ↑ Leg bind ↑ TP: 7 ↑
+Damage ↑ Leg bind ↑ TP: 7
+Damage ↑ Leg bind ↑ TP: 8 ↑
+Damage ↑ Leg bind ↑ TP: 8
+Damage ↑ Leg bind ↑ TP: 9 ↑
+Damage ↑ Leg bind ↑ TP: 10 ↑
+Damage ↑ Leg bind ↑ TP: 11 ↑
+Damage ↑ Leg bind ↑ TP: 12 ↑
+Knife Skill
+Learn skill; 2 times TP: 7
+Damage ↑ 2 times TP: 8 ↑
+2-4 times ↑ TP: 10 ↑
+Damage ↑ 2-3 times TP: 11 ↑
+Damage ↑ 2-3 times TP: 12 ↑
+2-4 times ↑ TP: 14 ↑
+Damage ↑ 2-4 times TP: 16 ↑
+Damage ↑ 2-4 times TP: 18 ↑
+3-4 times ↑ TP: 20 ↑
+Damage ↑ 3-4 times TP: 22 ↑
+Knife Skill
+Learn skill; TP: 6
+Damage ↑ Petrify rate ↑ TP: 7 ↑
+Damage ↑ Petrify rate ↑ TP: 8 ↑
+Damage ↑ Petrify rate ↑ TP: 9 ↑
+Damage ↑ Petrify rate ↑ TP: 10 ↑
+Damage ↑↑ Petrify rate ↑ TP: 11 ↑
+Damage ↑↑ Petrify rate ↑ TP: 12 ↑
+Damage ↑↑ Petrify rate ↑ TP: 13 ↑
+Damage ↑↑ Petrify rate ↑ TP: 14 ↑
+Damage ↑↑ Petrify rate ↑ TP: 15 ↑
+Knife Skill
+Learn skill; 3 times TP: 18
+Damage ↑ 3 times TP: 19 ↑
+Damage ↑ 3-4 times ↑ TP: 20 ↑
+Damage ↑ 3-4 times TP: 22 ↑
+Damage ↑ 3-4 times TP: 24 ↑
+Damage ↑ 3-4 times TP: 26 ↑
+Damage ↑ 3-5 times ↑ TP: 29 ↑
+Damage ↑ 3-5 times TP: 32 ↑
+Damage ↑ 3-5 times TP: 36 ↑
+Damage ↑ 3-5 times TP: 40 ↑
+Escape Skill
+Learn skill; TP: 5
+Escape rate ↑ TP: 4 ↓
+Escape rate ↑ TP: 3 ↓
+Escape rate ↑ TP: 2 ↓
+Escape rate ↑ TP: 1 ↓
+
+
+
+
+
+Class Skill
+Learn skill; Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Mastery Skill
+Learn skill; Fist damage ↑
+Fist damage ↑
+Fist damage ↑
+Fist damage ↑
+Fist damage ↑
+Fist damage ↑
+Fist damage ↑
+Fist damage ↑
+Fist damage ↑
+Fist damage ↑
+Passive Skill
+Learn skill
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Passive Skill
+Learn skill
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Passive Skill
+Learn skill
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+Passive Skill
+Learn skill; Unbind/Recovery rate ↑
+Unbind/Recovery rate ↑
+Unbind/Recovery rate ↑
+Unbind/Recovery rate ↑
+Unbind/Recovery rate ↑
+Unbind/Recovery rate ↑
+Unbind/Recovery rate ↑
+Unbind/Recovery rate ↑
+Unbind/Recovery rate ↑
+Unbind/Recovery rate ↑
+Fist Skill
+Learn skill; TP: 4
+Damage ↑ Paralyze rate ↑ TP: 4
+Damage ↑ Paralyze rate ↑ TP: 5 ↑
+Damage ↑ Paralyze rate ↑ TP: 5
+Damage ↑ Paralyze rate ↑ TP: 6 ↑
+Damage ↑ Paralyze rate ↑ TP: 6
+Damage ↑ Paralyze rate ↑ TP: 8 ↑
+Damage ↑ Paralyze rate ↑ TP: 8
+Damage ↑ Paralyze rate ↑ TP: 10 ↑
+Damage ↑ Paralyze rate ↑ TP: 10
+Healing Skill
+Learn skill; TP: 4
+Heal rate ↑ TP: 5 ↑
+Heal rate ↑ TP: 6 ↑
+Heal rate ↑ TP: 7 ↑
+Heal rate ↑ TP: 8 ↑
+Heal rate ↑ TP: 9 ↑
+Heal rate ↑ TP: 10 ↑
+Heal rate ↑ TP: 11 ↑
+Heal rate ↑ TP: 12 ↑
+Heal rate ↑↑ TP: 13 ↑
+Healing Skill
+Learn skill; TP: 18
+Heal rate ↑ TP: 19 ↑
+Heal rate ↑ TP: 21 ↑
+Heal rate ↑ TP: 23 ↑
+Heal rate ↑ TP: 25 ↑
+Heal rate ↑ TP: 27 ↑
+Heal rate ↑ TP: 29 ↑
+Heal rate ↑ TP: 31 ↑
+Heal rate ↑ TP: 33 ↑
+Heal rate ↑↑ TP: 35 ↑
+Healing Skill
+Learn skill; TP: 34
+TP: 30 ↓
+TP: 26 ↓
+TP: 22 ↓
+TP: 18 ↓
+
+
+
+
+
+Counter Skill
+Learn skill; TP: 5
+Damage ↑ TP: 5
+Damage ↑ TP: 6 ↑
+Damage ↑ TP: 6
+Damage ↑ TP: 7 ↑
+Damage ↑ TP: 7
+Damage ↑ TP: 8 ↑
+Damage ↑ TP: 8
+Damage ↑ TP: 9 ↑
+Damage ↑ TP: 9
+Counter Skill
+Learn skill; TP: 5
+Damage ↑ TP: 5
+Damage ↑ TP: 6 ↑
+Damage ↑ TP: 6
+Damage ↑ TP: 7 ↑
+Damage ↑ TP: 7
+Damage ↑ TP: 8 ↑
+Damage ↑ TP: 8
+Damage ↑ TP: 9 ↑
+Damage ↑ TP: 9
+Healing Skill
+Learn skill; TP: 6
+TP: 5 ↓
+TP: 4 ↓
+Target → Row TP: 10 ↑
+TP: 8 ↓
+TP: 6 ↓
+Target → All TP: 16 ↑
+TP: 14 ↓
+TP: 12 ↓
+TP: 10 ↓
+Healing Skill
+Learn skill; TP: 15
+Heal rate ↑ TP: 16 ↑
+Heal rate ↑ TP: 17 ↑
+Heal rate ↑ TP: 18 ↑
+Heal rate ↑ TP: 19 ↑
+Heal rate ↑↑ TP: 20 ↑
+Heal rate ↑↑ TP: 21 ↑
+Heal rate ↑↑ TP: 22 ↑
+Heal rate ↑↑ TP: 23 ↑
+Fully heal TP: 24 ↑
+Healing Skill
+Learn skill; TP: 6
+TP: 5 ↓
+TP: 4 ↓
+Target → Row TP: 10 ↑
+TP: 8 ↓
+TP: 6 ↓
+Target → All TP: 16 ↑
+TP: 14 ↓
+TP: 12 ↓
+TP: 10 ↓
+Healing Skill
+Learn skill; TP: 10
+Heal rate ↑ TP: 11 ↑
+Heal rate ↑ TP: 12 ↑
+Heal rate ↑ TP: 13 ↑
+Heal rate ↑ TP: 15 ↑
+Heal rate ↑ TP: 17 ↑
+Heal rate ↑ TP: 19 ↑
+Heal rate ↑ TP: 21 ↑
+Heal rate ↑ TP: 23 ↑
+Heal rate ↑↑ TP: 25 ↑
+Fist Skill
+Learn skill; 2 times TP: 4
+Damage ↑ 2 times TP: 5 ↑
+2-4 times ↑ TP: 7 ↑
+Damage ↑ 2-3 times TP: 8 ↑
+Damage ↑ 2-3 times TP: 9 ↑
+2-4 times ↑ TP: 11 ↑
+Damage ↑ 2-4 times TP: 12 ↑
+Damage ↑ 2-4 times TP: 13 ↑
+Damage ↑ 2-4 times TP: 14 ↑
+2-5 times ↑ TP: 16 ↑
+Fist Skill
+Learn skill; TP: 13
+Damage ↑ Success rate ↑ TP: 14 ↑
+Damage ↑ Success rate ↑ TP: 15 ↑
+Damage ↑ Success rate ↑ TP: 16 ↑
+Damage ↑ Success rate ↑ TP: 17 ↑
+Damage ↑↑ Success rate ↑ TP: 19 ↑
+Damage ↑↑ Success rate ↑ TP: 21 ↑
+Damage ↑↑ Success rate ↑ TP: 23 ↑
+Damage ↑↑ Success rate ↑ TP: 25 ↑
+Damage ↑↑ Success rate ↑ TP: 27 ↑
+Search Skill
+Learn skill; 30 steps TP: 4
+Damage ↓ 40 steps ↑ TP: 5 ↑
+Damage ↓ 50 steps ↑ TP: 6 ↑
+Damage ↓ 60 steps ↑ TP: 7 ↑
+Damage ↓ 80 steps ↑ TP: 8 ↑
+
+
+
+
+
+Class Skill
+Learn skill; Elemental damage ↑
+Elemental damage ↑
+Elemental damage ↑
+Elemental damage ↑
+Elemental damage ↑
+Elemental damage ↑
+Elemental damage ↑
+Elemental damage ↑
+Elemental damage ↑
+Elemental damage ↑
+Mastery Skill
+Learn skill; Fire damage ↑
+Fire damage ↑
+Fire damage ↑
+Fire damage ↑
+Fire damage ↑
+Fire damage ↑
+Fire damage ↑
+Fire damage ↑
+Fire damage ↑
+Fire damage ↑
+Mastery Skill
+Learn skill; Ice damage ↑
+Ice damage ↑
+Ice damage ↑
+Ice damage ↑
+Ice damage ↑
+Ice damage ↑
+Ice damage ↑
+Ice damage ↑
+Ice damage ↑
+Ice damage ↑
+Mastery Skill
+Learn skill; Volt damage ↑
+Volt damage ↑
+Volt damage ↑
+Volt damage ↑
+Volt damage ↑
+Volt damage ↑
+Volt damage ↑
+Volt damage ↑
+Volt damage ↑
+Volt damage ↑
+Passive Skill
+Learn skill
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+
+
+
+
+
+Passive Skill
+Learn skill
+Damage ↑
+Damage ↑
+Damage ↑
+Damage ↑
+
+
+
+
+
+Special Skill
+Learn skill; TP: 8
+Elemental damage ↑ TP: 9 ↑
+Elemental damage ↑ TP: 10 ↑
+Elemental damage ↑ TP: 11 ↑
+Elemental damage ↑ TP: 12 ↑
+
+
+
+
+
+Special Skill
+Learn skill; TP: 18
+TP: 16 ↓
+TP: 14 ↓
+TP: 12 ↓
+TP: 10 ↓
+
+
+
+
+
+Bash Skill
+Learn skill; 3-4 times TP: 30
+Damage ↑ 3-4 times TP: 32 ↑
+3-5 times ↑ TP: 34 ↑
+Damage ↑ 3-5 times TP: 37 ↑
+4-5 times ↑ TP: 40 ↑
+Damage ↑ 4-5 times TP: 43 ↑
+4-6 times ↑ TP: 47 ↑
+Damage ↑ 4-6 times TP: 51 ↑
+5-6 times ↑ TP: 55 ↑
+Damage ↑ 5-6 times TP: 60 ↑
+Fire Skill
+Learn skill; TP: 8
+Damage ↑ TP: 9 ↑
+Damage ↑ TP: 10 ↑
+Damage ↑ TP: 11 ↑
+Damage ↑ TP: 12 ↑
+Damage ↑ TP: 14 ↑
+Damage ↑ TP: 16 ↑
+Damage ↑ TP: 18 ↑
+Damage ↑ TP: 20 ↑
+Damage ↑↑ TP: 22 ↑
+Fire Skill
+Learn skill; TP: 16
+Damage ↑ TP: 18 ↑
+Damage ↑ TP: 20 ↑
+Damage ↑ TP: 22 ↑
+Damage ↑ TP: 24 ↑
+Damage ↑ TP: 26 ↑
+Damage ↑ TP: 28 ↑
+Damage ↑ TP: 30 ↑
+Damage ↑ TP: 32 ↑
+Damage ↑ TP: 35 ↑
+Fire Skill
+Learn skill; TP: 15
+Damage ↑ TP: 16 ↑
+Damage ↑ TP: 17 ↑
+Damage ↑ TP: 18 ↑
+Damage ↑ TP: 19 ↑
+
+
+
+
+
+Ice Skill
+Learn skill; TP: 8
+Damage ↑ TP: 9 ↑
+Damage ↑ TP: 10 ↑
+Damage ↑ TP: 11 ↑
+Damage ↑ TP: 12 ↑
+Damage ↑ TP: 14 ↑
+Damage ↑ TP: 16 ↑
+Damage ↑ TP: 18 ↑
+Damage ↑ TP: 20 ↑
+Damage ↑↑ TP: 22 ↑
+Ice Skill
+Learn skill; TP: 16
+Damage ↑ TP: 18 ↑
+Damage ↑ TP: 20 ↑
+Damage ↑ TP: 22 ↑
+Damage ↑ TP: 24 ↑
+Damage ↑ TP: 26 ↑
+Damage ↑ TP: 28 ↑
+Damage ↑ TP: 30 ↑
+Damage ↑ TP: 32 ↑
+Damage ↑ TP: 35 ↑
+Ice Skill
+Learn skill; TP: 15
+Damage ↑ TP: 16 ↑
+Damage ↑ TP: 17 ↑
+Damage ↑ TP: 18 ↑
+Damage ↑ TP: 19 ↑
+
+
+
+
+
+Volt Skill
+Learn skill; TP: 8
+Damage ↑ TP: 9 ↑
+Damage ↑ TP: 10 ↑
+Damage ↑ TP: 11 ↑
+Damage ↑ TP: 12 ↑
+Damage ↑ TP: 14 ↑
+Damage ↑ TP: 16 ↑
+Damage ↑ TP: 18 ↑
+Damage ↑ TP: 20 ↑
+Damage ↑↑ TP: 22 ↑
+Volt Skill
+Learn skill; TP: 16
+Damage ↑ TP: 18 ↑
+Damage ↑ TP: 20 ↑
+Damage ↑ TP: 22 ↑
+Damage ↑ TP: 24 ↑
+Damage ↑ TP: 26 ↑
+Damage ↑ TP: 28 ↑
+Damage ↑ TP: 30 ↑
+Damage ↑ TP: 32 ↑
+Damage ↑ TP: 35 ↑
+Volt Skill
+Learn skill; TP: 15
+Damage ↑ TP: 16 ↑
+Damage ↑ TP: 17 ↑
+Damage ↑ TP: 18 ↑
+Damage ↑ TP: 19 ↑
+
+
+
+
+
+Search Skill
+Learn skill; 30 steps TP: 6
+Range ↑ 40 steps ↑ TP: 6
+Range ↑ 50 steps ↑ TP: 7 ↑
+Range ↑ 70 steps ↑ TP: 7
+Range ↑ 100 steps ↑ TP: 8 ↑
+
+
+
+
+
+Class Skill
+Learn skill
+Beast HP/Damage/Defense ↑
+Beast HP/Damage/Defense ↑
+Beast HP/Damage/Defense ↑
+Beast HP/Damage/Defense ↑
+Beast HP/Damage/Defense ↑
+Beast HP/Damage/Defense ↑
+Beast HP/Damage/Defense ↑
+Beast HP/Damage/Defense ↑
+Beast HP/Damage/Defense ↑
+Mastery Skill
+Learn skill; Beast ailment success rate ↑
+Beast ailment success rate ↑
+Beast ailment success rate ↑
+Beast ailment success rate ↑
+Beast ailment success rate ↑
+Beast ailment success rate ↑
+Beast ailment success rate ↑
+Beast ailment success rate ↑
+Beast ailment success rate ↑
+Beast ailment success rate ↑
+Passive Skill
+Learn skill
+Heal rate ↑ Activation rate ↑
+Heal rate ↑ Activation rate ↑
+Heal rate ↑ Activation rate ↑
+Heal rate ↑ Activation rate ↑
+Heal rate ↑↑ Activation rate ↑
+Heal rate ↑↑ Activation rate ↑
+Heal rate ↑↑ Activation rate ↑
+Heal rate ↑↑↑ Activation rate ↑
+Fully heal Activation rate ↑↑
+Passive Skill
+Learn skill
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑↑
+Activation rate ↑↑
+Activation rate ↑↑
+Activation rate ↑↑
+Activation rate ↑↑
+Passive Skill
+Learn skill
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑↑
+Activation rate ↑↑
+Activation rate ↑↑
+Activation rate ↑↑
+Activation rate ↑↑
+Passive Skill
+Learn skill
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+
+
+
+
+
+Support Skill
+Learn skill; TP: 8
+Enemy strength ↓ TP: 10 ↑
+Enemy strength ↓ TP: 12 ↑
+Enemy strength ↓ TP: 14 ↑
+Enemy strength ↓ TP: 16 ↑
+
+
+
+
+
+Support Skill
+Learn skill; TP: 8
+Enemy defense ↓ TP: 10 ↑
+Enemy defense ↓ TP: 12 ↑
+Enemy defense ↓ TP: 14 ↑
+Enemy defense ↓ TP: 16 ↑
+
+
+
+
+
+Special Skill
+Learn skill; TP: 8
+TP: 6 ↓
+TP: 4 ↓
+TP: 2 ↓
+TP: 1 ↓
+
+
+
+
+
+Summon Skill
+Learn skill; TP: 15
+HP/Damage/Head bind ↑ TP: 15
+HP/Damage/Head bind ↑ TP: 18 ↑
+HP/Damage/Head bind ↑ TP: 18
+HP/Damage/Head bind ↑ TP: 21 ↑
+HP/Damage/Head bind ↑ TP: 21
+HP/Damage/Head bind ↑ TP: 24 ↑
+HP/Damage/Head bind ↑ TP: 24
+HP/Damage/Head bind ↑ TP: 27 ↑
+HP/Damage/Head bind ↑ TP: 27
+Summon Skill
+Learn skill; TP: 15
+HP/Damage/Arm bind ↑ TP: 15
+HP/Damage/Arm bind ↑ TP: 18 ↑
+HP/Damage/Arm bind ↑ TP: 18
+HP/Damage/Arm bind ↑ TP: 21 ↑
+HP/Damage/Arm bind ↑ TP: 21
+HP/Damage/Arm bind ↑ TP: 24 ↑
+HP/Damage/Arm bind ↑ TP: 24
+HP/Damage/Arm bind ↑ TP: 27 ↑
+HP/Damage/Arm bind ↑ TP: 27
+Summon Skill
+Learn skill; TP: 15
+HP/Damage/Leg bind ↑ TP: 15
+HP/Damage/Leg bind ↑ TP: 18 ↑
+HP/Damage/Leg bind ↑ TP: 18
+HP/Damage/Leg bind ↑ TP: 21 ↑
+HP/Damage/Leg bind ↑ TP: 21
+HP/Damage/Leg bind ↑ TP: 24 ↑
+HP/Damage/Leg bind ↑ TP: 24
+HP/Damage/Leg bind ↑ TP: 27 ↑
+HP/Damage/Leg bind ↑ TP: 27
+Summon Skill
+Learn skill; TP: 18
+HP/Damage/Poison damage ↑ TP: 18
+HP/Damage/Poison damage ↑ TP: 21 ↑
+HP/Damage/Poison damage ↑ TP: 21
+HP/Damage/Poison damage ↑ TP: 24 ↑
+HP/Damage/Poison damage ↑ TP: 24
+HP/Damage/Poison damage ↑ TP: 27 ↑
+HP/Damage/Poison damage ↑ TP: 27
+HP/Damage/Poison damage ↑ TP: 30 ↑
+HP/Damage/Poison damage ↑ TP: 30
+Summon Skill
+Learn skill; 2 times TP: 21
+HP/Damage ↑ 2 times TP: 21
+HP/Damage ↑ 2-3 times ↑ TP: 24 ↑
+HP/Damage ↑ 2-3 times TP: 24
+HP/Damage ↑ 2-3 times TP: 27 ↑
+HP/Damage ↑ 2-4 times ↑ TP: 27
+HP/Damage ↑ 2-4 times TP: 30 ↑
+HP/Damage ↑ 2-4 times TP: 30
+HP/Damage ↑ 2-4 times TP: 33 ↑
+HP/Damage ↑ 2-5 times ↑ TP: 33
+Summon Skill
+Learn skill; TP: 18
+HP/Sleep rate ↑ TP: 18
+HP/Sleep rate ↑ TP: 21 ↑
+HP/Sleep rate ↑ TP: 21
+HP/Sleep rate ↑ TP: 24 ↑
+HP/Sleep rate ↑ TP: 24
+HP/Sleep rate ↑ TP: 27 ↑
+HP/Sleep rate ↑ TP: 27
+HP/Sleep rate ↑ TP: 30 ↑
+HP/Sleep rate ↑ TP: 30
+Summon Skill
+Learn skill; TP: 21
+HP/Damage/Confuse rate ↑ TP: 21
+HP/Damage/Confuse rate ↑ TP: 24 ↑
+HP/Damage/Confuse rate ↑ TP: 24
+HP/Damage/Confuse rate ↑ TP: 27 ↑
+HP/Damage/Confuse rate ↑ TP: 27
+HP/Damage/Confuse rate ↑ TP: 30 ↑
+HP/Damage/Confuse rate ↑ TP: 30
+HP/Damage/Confuse rate ↑ TP: 33 ↑
+HP/Damage/Confuse rate ↑ TP: 33
+Summon Skill
+Learn skill; TP: 24
+HP/Death rate ↑ TP: 24
+HP/Death rate ↑ TP: 27 ↑
+HP/Death rate ↑ TP: 27
+HP/Death rate ↑ TP: 30 ↑
+HP/Death rate ↑ TP: 30
+HP/Death rate ↑ TP: 33 ↑
+HP/Death rate ↑ TP: 33
+HP/Death rate ↑ TP: 36 ↑
+HP/Death rate ↑ TP: 36
+Summon Skill
+Learn skill; TP: 27
+Damage/ailment rate ↑ TP: 27
+Damage/ailment rate ↑ TP: 30 ↑
+Damage/ailment rate ↑ TP: 30
+Damage/ailment rate ↑ TP: 33 ↑
+Damage/ailment rate ↑ TP: 33
+Damage/ailment rate ↑ TP: 36 ↑
+Damage/ailment rate ↑ TP: 36
+Damage/ailment rate ↑ TP: 39 ↑
+Damage/ailment rate ↑ TP: 39
+Summon Skill
+Learn skill; TP: 27
+HP/Damage/Poison damage ↑ TP: 27
+HP/Damage/Poison damage ↑ TP: 30 ↑
+HP/Damage/Poison damage ↑ TP: 30
+HP/Damage/Poison damage ↑ TP: 33 ↑
+HP/Damage/Poison damage ↑ TP: 33
+HP/Damage/Poison damage ↑ TP: 36 ↑
+HP/Damage/Poison damage ↑ TP: 36
+HP/Damage/Poison damage ↑ TP: 39 ↑
+HP/Damage/Poison damage ↑ TP: 39
+Class Skill
+Learn skill
+Physical damage to highest HP ↑
+Physical damage to highest HP ↑
+Physical damage to highest HP ↑
+Physical damage to highest HP ↑
+Physical damage to highest HP ↑
+Physical damage to highest HP ↑
+Physical damage to highest HP ↑
+Physical damage to highest HP ↑
+Physical damage to highest HP ↑
+Mastery Skill
+Learn skill; Crossbow damage ↑
+Crossbow damage ↑
+Crossbow damage ↑
+Crossbow damage ↑
+Crossbow damage ↑
+Crossbow damage ↑
+Crossbow damage ↑
+Crossbow damage ↑
+Crossbow damage ↑
+Crossbow damage ↑
+Passive Skill
+Learn skill
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Passive Skill
+Learn skill; Night critical rate ↑
+Night critical rate ↑
+Night critical rate ↑
+Night critical rate ↑
+Night critical rate ↑
+Night critical rate ↑
+Night critical rate ↑
+Night critical rate ↑
+Night critical rate ↑
+Night critical rate ↑
+Passive Skill
+Learn skill
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Passive Skill
+Learn skill; Skill accuracy ↑
+Skill accuracy ↑
+Skill accuracy ↑
+Skill accuracy ↑
+Skill accuracy ↑↑
+
+
+
+
+
+Support Skill
+Learn skill; TP: 6
+Accuracy ↑ TP: 7 ↑
+Accuracy ↑ TP: 8 ↑
+Accuracy ↑↑ TP: 9 ↑
+Accuracy ↑↑ TP: 10 ↑
+
+
+
+
+
+Support Skill
+Learn skill; TP: 6
+Blind rate ↑ TP: 7 ↑
+Blind rate ↑ TP: 8 ↑
+Blind rate ↑ TP: 9 ↑
+Blind rate ↑ TP: 10 ↑
+
+
+
+
+
+Crossbow Skill
+Learn skill; TP: 3
+Damage ↑ TP: 3
+Damage ↑ TP: 4 ↑
+Damage ↑ TP: 4
+Damage ↑ TP: 5 ↑
+Damage ↑ TP: 5
+Damage ↑ TP: 6 ↑
+Damage ↑ TP: 6
+Damage ↑ TP: 7 ↑
+Damage ↑↑ TP: 7
+Crossbow Skill
+Learn skill; TP: 5
+Damage ↑ TP: 5
+Damage ↑ TP: 6 ↑
+Damage ↑ TP: 6
+Damage ↑ TP: 7 ↑
+Damage ↑ TP: 7
+Damage ↑ TP: 8 ↑
+Damage ↑ TP: 8
+Damage ↑ TP: 9 ↑
+Damage ↑ TP: 9
+Crossbow Skill
+Learn skill; 2-3 times TP: 7
+Damage ↑ 2-3 times TP: 8 ↑
+Damage ↑ 2-3 times TP: 9 ↑
+Damage ↑ 2-4 times ↑ TP: 10 ↑
+Damage ↑ 2-4 times TP: 11 ↑
+Damage ↑ 2-4 times TP: 12 ↑
+Damage ↑ 2-5 times ↑ TP: 13 ↑
+Damage ↑ 2-5 times TP: 14 ↑
+Damage ↑ 2-5 times TP: 15 ↑
+Damage ↑ 3-5 times ↑ TP: 16 ↑
+Crossbow Skill
+Learn skill; TP: 3
+Damage ↑ TP: 3
+Damage ↑ TP: 4 ↑
+Damage ↑ TP: 4
+Damage ↑ TP: 5 ↑
+Damage ↑ TP: 5
+Damage ↑ TP: 6 ↑
+Damage ↑ TP: 6
+Damage ↑ TP: 7 ↑
+Damage ↑↑ TP: 7
+Crossbow Skill
+Learn skill; TP: 11
+Damage ↑ TP: 11
+Damage ↑ TP: 12 ↑
+Damage ↑ TP: 12
+Damage ↑ TP: 13 ↑
+Damage ↑ TP: 13
+Damage ↑ TP: 14 ↑
+Damage ↑ TP: 14
+Damage ↑ TP: 15 ↑
+Damage ↑ TP: 15
+Crossbow Skill
+Learn skill; TP: 8
+Damage ↑ TP: 8
+Damage ↑ TP: 9 ↑
+Damage ↑ TP: 9
+Damage ↑ TP: 10 ↑
+Damage ↑ TP: 11 ↑
+Damage ↑ TP: 12 ↑
+Damage ↑ TP: 13 ↑
+Damage ↑ TP: 14 ↑
+Damage ↑ TP: 15 ↑
+Crossbow Skill
+Learn skill; TP: 9
+Damage ↑ TP: 12 ↑
+Damage ↑ TP: 15 ↑
+Damage ↑ TP: 18 ↑
+Damage ↑ TP: 21 ↑
+Damage ↑ TP: 24 ↑
+Damage ↑ TP: 27 ↑
+Damage ↑ TP: 30 ↑
+Damage ↑ TP: 33 ↑
+Damage ↑ TP: 36 ↑
+Crossbow Skill
+Learn skill; TP: 8
+Damage ↑ TP: 8
+Damage ↑ TP: 9 ↑
+Damage ↑ TP: 9
+Damage ↑ TP: 10 ↑
+Damage ↑ TP: 11 ↑
+Damage ↑ TP: 12 ↑
+Damage ↑ TP: 13 ↑
+Damage ↑ TP: 14 ↑
+Damage ↑ TP: 15 ↑
+Crossbow Skill
+Learn skill; TP: 8
+Damage ↑ TP: 8
+Damage ↑ TP: 9 ↑
+Damage ↑ TP: 9
+Damage ↑ TP: 10 ↑
+Damage ↑ TP: 11 ↑
+Damage ↑ TP: 12 ↑
+Damage ↑ TP: 13 ↑
+Damage ↑ TP: 14 ↑
+Damage ↑ TP: 15 ↑
+Crossbow Skill
+Learn skill; TP: 14
+Damage ↑ TP: 16 ↑
+Damage ↑ TP: 18 ↑
+Damage ↑ TP: 20 ↑
+Damage ↑ TP: 22 ↑
+
+
+
+
+
+Search Skill
+Learn skill; 40 steps TP: 6
+First attack rate ↑ 45 steps ↑ TP: 7 ↑
+First attack rate ↑ 50 steps ↑ TP: 8 ↑
+First attack rate ↑ 55 steps ↑ TP: 9 ↑
+First attack rate ↑ 60 steps ↑ TP: 10 ↑
+
+
+
+
+
+Class Skill
+Learn skill; EXP gain ↑
+EXP gain ↑
+EXP gain ↑
+EXP gain ↑
+EXP gain ↑
+EXP gain ↑
+EXP gain ↑
+EXP gain ↑
+EXP gain ↑
+EXP gain ↑
+Passive Skill
+Learn skill
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Passive Skill
+Learn skill
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+
+
+
+
+
+Passive Skill
+Learn skill
+HP/TP recovery rate ↑
+HP/TP recovery rate ↑
+HP/TP recovery rate ↑
+HP/TP recovery rate ↑
+HP/TP recovery rate ↑
+HP/TP recovery rate ↑
+HP/TP recovery rate ↑
+HP/TP recovery rate ↑
+HP/TP recovery rate ↑
+Passive Skill
+Learn skill; Item drop rate ↑
+Item drop rate ↑
+Item drop rate ↑
+Item drop rate ↑
+Item drop rate ↑
+
+
+
+
+
+Passive Skill
+Learn skill; Rare item rate ↑
+Rare item rate ↑
+Rare item rate ↑
+Rare item rate ↑
+Rare item rate ↑
+Rare item rate ↑
+Rare item rate ↑
+Rare item rate ↑
+Rare item rate ↑
+Rare item rate ↑
+Support Skill
+Learn skill; TP: 3
+Detection rate ↓ TP: 3
+Detection rate ↓ TP: 4 ↑
+Detection rate ↓ TP: 4
+Detection rate ↓ TP: 5 ↑
+Detection rate ↓ TP: 5
+Detection rate ↓ TP: 6 ↑
+Detection rate ↓ TP: 6
+Detection rate ↓ TP: 7 ↑
+Detection rate ↓↓  TP: 7
+Special Skill
+Learn skill; TP: 3
+Success rate ↑ TP: 3
+Success rate ↑ TP: 4 ↑
+Success rate ↑ TP: 4
+Success rate ↑ TP: 5 ↑
+Success rate ↑ TP: 6 ↑
+Success rate ↑ TP: 7 ↑
+Success rate ↑ TP: 8 ↑
+Success rate ↑ TP: 9 ↑
+Success rate ↑↑ TP: 10 ↑
+Support Skill
+Learn skill; TP: 5
+Ailing enemy strength ↓↓ TP: 5
+Enemy strength ↓ TP: 6 ↑
+Ailing enemy strength ↓↓ TP: 6
+Ailing enemy strength ↓↓ TP: 7 ↑
+Enemy strength ↓ TP: 7
+Ailing enemy strength ↓↓ TP: 8 ↑
+Enemy strength ↓ TP: 8
+Ailing enemy strength ↓↓ TP: 9 ↑
+Enemy strength ↓ TP: 9
+Special Skill
+Learn skill; TP: 2
+Success rate ↑ TP: 3 ↑
+Success rate ↑ TP: 4 ↑
+Success rate ↑ TP: 5 ↑
+Success rate ↑ TP: 6 ↑
+Success rate ↑ TP: 7 ↑
+Success rate ↑ TP: 8 ↑
+Success rate ↑ TP: 9 ↑
+Success rate ↑ TP: 10 ↑
+Success rate ↑ TP: 10
+Special Skill
+Learn skill; TP: 3
+Bind rate ↑ TP: 4 ↑
+Sprout rate ↑ Bind rate ↑ TP: 4
+Bind rate ↑ TP: 5 ↑
+Sprout rate ↑ Bind rate ↑ TP: 5
+Bind rate ↑ TP: 6 ↑
+Sprout rate ↑ Bind rate ↑ TP: 6
+Bind rate ↑ TP: 7 ↑
+Sprout rate ↑ Bind rate ↑ TP: 7
+Bind rate ↑ TP: 8 ↑
+Search Skill
+Learn skill; TP: 5
+Heal rate ↑ TP: 5
+Heal rate ↑ TP: 5
+Heal rate ↑↑ TP: 5
+Heal rate ↑↑ TP: 5
+Heal rate ↑↑ TP: 5
+Heal rate ↑↑ TP: 5
+Heal rate ↑↑ TP: 5
+Heal rate ↑↑ TP: 5
+Heal rate ↑↑ TP: 5
+Search Skill
+Learn skill; TP: 2
+
+
+
+
+
+
+
+
+
+Search Skill
+Learn skill; TP: 10
+Chop/Mine/Take recovery ↑ TP: 15 ↑
+Chop/Mine/Take recovery ↑ TP: 20 ↑
+Chop/Mine/Take recovery ↑ TP: 25 ↑
+Chop/Mine/Take recovery ↑ TP: 30 ↑
+Chop/Mine/Take recovery ↑ TP: 35 ↑
+Chop/Mine/Take recovery ↑ TP: 40 ↑
+Chop/Mine/Take recovery ↑ TP: 45 ↑
+Chop/Mine/Take recovery ↑ TP: 50 ↑
+Chop/Mine/Take recovery ↑ TP: 55 ↑
+Search Skill
+Learn skill; 15 steps TP: 12
+20 steps ↑ TP: 12
+25 steps ↑ TP: 13 ↑
+30 steps ↑ TP: 13
+40 steps ↑ TP: 14 ↑
+
+
+
+
+
+Search Skill
+Learn skill; TP: 13
+
+
+
+
+
+
+
+
+
+Search Skill
+Learn skill; TP: 10
+15 steps ↑ TP: 10
+20 steps ↑ TP: 11 ↑
+25 steps ↑ TP: 11
+30 steps ↑ TP: 12 ↑
+35 steps ↑ TP: 12
+40 steps ↑ TP: 13 ↑
+50 steps ↑ TP: 13
+60 steps ↑ TP: 14 ↑
+70 steps ↑ TP: 14
+Search Skill
+Learn skill; 5 steps TP: 6
+10 steps ↑ TP: 6
+15 steps ↑ TP: 7 ↑
+20 steps ↑ TP: 7
+25 steps ↑ TP: 8 ↑
+30 steps ↑ TP: 8
+35 steps ↑ TP: 9 ↑
+40 steps ↑ TP: 9
+50 steps ↑ TP: 10 ↑
+60 steps ↑ TP: 10
+Search Skill
+Learn skill; Number of Chop/Mine/Take ↑
+Number of Chop/Mine/Take ↑
+Number of Chop/Mine/Take ↑
+Number of Chop/Mine/Take ↑
+Number of Chop/Mine/Take ↑
+
+
+
+
+
+Class Skill
+Learn skill
+Second Sword damage ↑
+Second Sword damage ↑
+Second Sword damage ↑
+Second Sword damage ↑
+Second Sword damage ↑
+Second Sword damage ↑
+Second Sword damage ↑
+Second Sword damage ↑
+Second Sword damage ↑
+Mastery Skill
+Learn skill; Katana damage ↑
+Katana damage ↑
+Katana damage ↑
+Katana damage ↑
+Katana damage ↑
+Katana damage ↑
+Katana damage ↑
+Katana damage ↑
+Katana damage ↑
+Katana damage ↑
+Passive Skill
+Learn skill
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+- -
+- -
+- -
+- -
+- -
+Passive Skill
+Learn skill
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+Activation rate ↑
+- -
+- -
+- -
+- -
+- -
+Passive Skill
+Learn skill
+Damage ↑
+Damage ↑
+Damage ↑
+Damage ↑
+Damage ↑
+Damage ↑
+Damage ↑
+Damage ↑
+Damage ↑
+Passive Skill
+Learn skill
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Heal rate ↑
+Support Skill
+Learn skill; TP: 12
+TP: 10 ↓
+TP: 8 ↓
+TP: 6 ↓
+TP: 4 ↓
+
+
+
+
+
+Katana Skill
+Learn skill; TP: 8
+Damage ↑ Stun rate ↑ TP: 8
+Damage ↑ Stun rate ↑ TP: 9 ↑
+Damage ↑ Stun rate ↑ TP: 9
+Damage ↑ Stun rate ↑ TP: 10 ↑
+Damage ↑ Stun rate ↑ TP: 10
+Damage ↑ Stun rate ↑ TP: 11 ↑
+Damage ↑ Stun rate ↑ TP: 11
+Damage ↑ Stun rate ↑ TP: 12 ↑
+Damage ↑ Stun rate ↑ TP: 12
+Katana Skill
+Learn skill; 2-3 times TP: 11
+Damage ↑ 2-3 times TP: 12 ↑
+Damage ↑ 2-3 times TP: 13 ↑
+Damage ↑ 2-3 times TP: 14 ↑
+Damage ↑ 2-3 times TP: 15 ↑
+Damage ↑ 2-4 times ↑ TP: 17 ↑
+Damage ↑ 2-4 times TP: 18 ↑
+Damage ↑ 2-4 times TP: 19 ↑
+Damage ↑ 2-4 times TP: 21 ↑
+Damage ↑ 2-4 times TP: 23 ↑
+Katana Skill
+Learn skill; 2-3 times TP: 11
+Damage ↑ 2-3 times TP: 12 ↑
+Damage ↑ 2-3 times TP: 13 ↑
+Damage ↑ 2-3 times TP: 14 ↑
+Damage ↑ 2-3 times TP: 15 ↑
+Damage ↑ 2-4 times ↑ TP: 17 ↑
+Damage ↑ 2-4 times TP: 18 ↑
+Damage ↑ 2-4 times TP: 19 ↑
+Damage ↑ 2-4 times TP: 21 ↑
+Damage ↑ 2-4 times TP: 23 ↑
+Katana Skill
+Learn skill; 2-3 times TP: 15
+Damage ↑ 2-3 times TP: 16 ↑
+Damage ↑ 2-3 times TP: 17 ↑
+Damage ↑ 2-3 times TP: 18 ↑
+Damage ↑ 2-4 times ↑ TP: 20 ↑
+Damage ↑ 2-4 times TP: 22 ↑
+Damage ↑ 2-4 times TP: 24 ↑
+Damage ↑ 2-4 times TP: 26 ↑
+Damage ↑ 2-5 times ↑ TP: 28 ↑
+Damage ↑ 2-5 times TP: 30 ↑
+Support Skill
+Learn skill; TP: 10
+Damage/Defense/Draw rate ↑ TP: 11 ↑
+Damage/Defense/Draw rate ↑ TP: 12 ↑
+Damage/Defense/Draw rate ↑ TP: 13 ↑
+Damage/Defense/Draw rate ↑ TP: 14 ↑
+Damage/Defense/Draw rate ↑ TP: 15 ↑
+Damage/Defense/Draw rate ↑ TP: 16 ↑
+Damage/Defense/Draw rate ↑ TP: 17 ↑
+Damage/Defense/Draw rate ↑ TP: 18 ↑
+Damage/Defense/Draw rate ↑ TP: 20 ↑
+Special Skill
+Learn skill; TP: 10
+Damage ↑ Defense ↓ TP: 11 ↑
+Damage ↑ Defense ↓ TP: 12 ↑
+Damage ↑ Defense ↓ TP: 13 ↑
+Damage ↑ Defense ↓ TP: 14 ↑
+Damage ↑ Defense ↓ TP: 16 ↑
+Damage ↑ Defense ↓ TP: 18 ↑
+Damage ↑ Defense ↓ TP: 20 ↑
+Damage ↑ Defense ↓ TP: 22 ↑
+Damage ↑ Defense ↓ TP: 24 ↑
+Support Skill
+Learn skill; TP: 8
+Damage ↑ Defense ↓ TP: 8
+Damage ↑ Defense ↓ TP: 9 ↑
+Damage ↑ Defense ↓ TP: 10 ↑
+Damage ↑ Defense ↓ TP: 11 ↑
+Damage ↑ Defense ↓ TP: 12 ↑
+Damage ↑ Defense ↓ TP: 13 ↑
+Damage ↑ Defense ↓ TP: 14 ↑
+Damage ↑ Defense ↓ TP: 15 ↑
+Damage ↑ Defense ↓ TP: 16 ↑
+Support Skill
+Learn skill; TP: 8
+Defense ↑ Damage ↓ TP: 8
+Defense ↑ Damage ↓ TP: 9 ↑
+Defense ↑ Damage ↓ TP: 10 ↑
+Defense ↑ Damage ↓ TP: 11 ↑
+Defense ↑ Damage ↓ TP: 12 ↑
+Defense ↑ Damage ↓ TP: 13 ↑
+Defense ↑ Damage ↓ TP: 14 ↑
+Defense ↑ Damage ↓ TP: 15 ↑
+Defense ↑ Damage ↓ TP: 16 ↑
+Counter Skill
+Learn skill; TP: 10
+Damage ↑ TP: 10
+Damage ↑ TP: 11 ↑
+Damage ↑ TP: 12 ↑
+Damage ↑ TP: 13 ↑
+Damage ↑ TP: 14 ↑
+Damage ↑ TP: 15 ↑
+Damage ↑ TP: 16 ↑
+Damage ↑ TP: 17 ↑
+Damage ↑ TP: 18 ↑
+Assault Skill
+Learn skill; TP: 8
+Damage ↑ TP: 8
+Damage ↑ TP: 9 ↑
+Damage ↑ TP: 9
+Damage ↑ TP: 10 ↑
+Damage ↑ TP: 11 ↑
+Damage ↑ TP: 12 ↑
+Damage ↑ TP: 13 ↑
+Damage ↑ TP: 14 ↑
+Damage ↑ TP: 15 ↑
+Assault Skill
+Learn skill; TP: 14
+Damage ↑ TP: 15 ↑
+Damage ↑ TP: 16 ↑
+Damage ↑ TP: 17 ↑
+Damage ↑ TP: 18 ↑
+Damage ↑ TP: 19 ↑
+Damage ↑ TP: 20 ↑
+Damage ↑ TP: 22 ↑
+Damage ↑ TP: 24 ↑
+Damage ↑ TP: 26 ↑
+Escape Skill
+Learn skill; TP: 5
+Escape rate ↑ TP: 5
+Escape rate ↑ TP: 5
+Escape rate ↑ TP: 5
+Escape rate ↑ TP: 5
+
+
+
+
+
+Class Skill
+Learn skill
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+TP recovery rate ↑
+Passive Skill
+Learn skill
+Damage ↑ HP consumed/turn ↑
+Damage ↑ HP consumed/turn ↑
+Damage ↑ HP consumed/turn ↑
+Damage ↑ HP consumed/turn ↑
+Damage ↑ HP consumed/turn ↑↑
+Damage ↑ HP consumed/turn ↑↑
+Damage ↑ HP consumed/turn ↑↑
+Damage ↑↑ HP consumed/turn ↑↑
+Damage ↑↑ HP consumed/turn ↑↑
+Passive Skill
+Learn skill
+Ailment rate ↓
+Ailment rate ↓
+Ailment rate ↓
+Ailment rate ↓
+Ailment rate ↓
+Ailment rate ↓
+Ailment rate ↓
+Ailment rate ↓
+Ailment rate ↓
+Passive Skill
+Learn skill
+Damage ↑ Activation/Paralysis rate ↑
+Damage ↑ Activation/Paralysis rate ↑
+Damage ↑ Activation/Paralysis rate ↑
+Damage ↑ Activation/Paralysis rate ↑
+Damage ↑ Activation/Paralysis rate ↑
+Damage ↑ Activation/Paralysis rate ↑
+Damage ↑ Activation/Paralysis rate ↑
+Damage ↑ Activation/Paralysis rate ↑
+Damage ↑ Activation/Paralysis rate ↑
+Passive Skill
+Learn skill
+Accuracy ↑ Evade rate ↑
+Accuracy ↑ Evade rate ↑
+Accuracy ↑ Evade rate ↑
+Accuracy ↑ Evade rate ↑
+Accuracy ↑ Evade rate ↑
+Accuracy ↑ Evade rate ↑
+Accuracy ↑ Evade rate ↑
+Accuracy ↑ Evade rate ↑
+Accuracy ↑↑ Evade rate ↑↑
+Passive Skill
+Learn skill
+Damage ↑
+Damage ↑ Critical rate ↑
+Damage ↑
+Damage ↑ Critical rate ↑
+Damage ↑
+Damage ↑ Critical rate ↑
+Damage ↑
+Damage ↑↑ Critical rate ↑
+Damage ↑↑ Critical rate ↑
+Bot Skill
+Learn skill; TP: 10
+Bot HP/Damage ↑ TP: 11 ↑
+Bot HP/Damage ↑ TP: 12 ↑
+Bot HP/Damage ↑ TP: 13 ↑
+Bot HP/Damage ↑ TP: 14 ↑
+Bot HP/Damage ↑ TP: 15 ↑
+Bot HP/Damage ↑ TP: 16 ↑
+Bot HP/Damage ↑ TP: 17 ↑
+Bot HP/Damage ↑ TP: 18 ↑
+Bot HP/Damage ↑ TP: 20 ↑
+Bot Skill
+Learn skill; TP: 10
+Bot HP/Damage ↑ TP: 11 ↑
+Bot HP/Damage ↑ TP: 12 ↑
+Bot HP/Damage ↑ TP: 13 ↑
+Bot HP/Damage ↑ TP: 14 ↑
+Bot HP/Damage ↑ TP: 15 ↑
+Bot HP/Damage ↑ TP: 16 ↑
+Bot HP/Damage ↑ TP: 17 ↑
+Bot HP/Damage ↑ TP: 18 ↑
+Bot HP/Damage ↑ TP: 20 ↑
+Bot Skill
+Learn skill; TP: 10
+Bot HP/Damage ↑ TP: 11 ↑
+Bot HP/Damage ↑ TP: 12 ↑
+Bot HP/Damage ↑ TP: 13 ↑
+Bot HP/Damage ↑ TP: 14 ↑
+Bot HP/Damage ↑ TP: 15 ↑
+Bot HP/Damage ↑ TP: 16 ↑
+Bot HP/Damage ↑ TP: 17 ↑
+Bot HP/Damage ↑ TP: 18 ↑
+Bot HP/Damage ↑ TP: 20 ↑
+Special Skill
+Learn skill; TP: 5
+Bot heal rate ↑ TP: 6 ↑
+Bot heal rate ↑ TP: 7 ↑
+Bot heal rate ↑ TP: 8 ↑
+Bot heal rate ↑ TP: 9 ↑
+Bot heal rate ↑ TP: 10 ↑
+Bot heal rate ↑ TP: 11 ↑
+Bot heal rate ↑ TP: 12 ↑
+Bot heal rate ↑ TP: 13 ↑
+Bot heal rate ↑ TP: 14 ↑
+Bot Skill
+Learn skill; TP: 14
+Damage ↑ TP: 15 ↑
+Damage ↑ TP: 16 ↑
+Damage ↑ TP: 18 ↑
+Damage ↑ TP: 20 ↑
+
+
+
+
+
+Bot Skill
+Learn skill; TP: 25
+Damage ↑ TP: 26 ↑
+Damage ↑ TP: 28 ↑
+Damage ↑ TP: 30 ↑
+Damage ↑ TP: 32 ↑
+Damage ↑ TP: 34 ↑
+Damage ↑ TP: 36 ↑
+Damage ↑ TP: 39 ↑
+Damage ↑ TP: 42 ↑
+Damage ↑ TP: 45 ↑
+Bot Skill
+Learn skill; TP: 15
+Damage ↑ TP: 16 ↑
+Damage ↑ TP: 17 ↑
+Damage ↑ TP: 18 ↑
+Damage ↑ TP: 20 ↑
+Damage ↑ TP: 22 ↑
+Damage ↑↑ TP: 25 ↑
+Damage ↑↑ TP: 28 ↑
+Damage ↑↑ TP: 31 ↑
+Damage ↑↑ TP: 35 ↑
+Assault Skill
+Learn skill; TP: 15
+Damage ↑ TP: 16 ↑
+Damage ↑ TP: 17 ↑
+Damage ↑ TP: 18 ↑
+Damage ↑ TP: 19 ↑
+Damage ↑ TP: 20 ↑
+Damage ↑ TP: 21 ↑
+Damage ↑ TP: 22 ↑
+Damage ↑ TP: 23 ↑
+Damage ↑ TP: 25 ↑
+Assault Skill
+Learn skill; TP: 18
+Damage ↑ TP: 19 ↑
+Damage ↑ TP: 20 ↑
+Damage ↑ TP: 21 ↑
+Damage ↑ TP: 22 ↑
+Damage ↑ TP: 23 ↑
+Damage ↑ TP: 24 ↑
+Damage ↑ TP: 26 ↑
+Damage ↑ TP: 28 ↑
+Damage ↑ TP: 30 ↑
+Special Skill
+Learn skill; TP: 15
+Invoke speed ↑ TP: 14 ↓
+Invoke speed ↑ TP: 13↓
+Invoke speed ↑ TP: 12 ↓
+Invoke speed ↑ TP: 10 ↓
+
+
+
+
+
+Assault Skill
+Learn skill; TP: 5
+Damage ↑ TP: 6 ↑
+Damage ↑ TP: 7 ↑
+Damage ↑ TP: 8 ↑
+Damage ↑ TP: 9 ↑
+Damage ↑↑ TP: 10 ↑
+Damage ↑↑ TP: 11 ↑
+Damage ↑↑ TP: 12 ↑
+Damage ↑↑ TP: 13 ↑
+Damage ↑↑ TP: 14 ↑
+Special Skill
+Learn skill; TP: 5
+TP: 4 ↓
+TP: 3 ↓
+TP: 2 ↓
+TP: 1 ↓
+
+
+
+
+
+Special Skill
+Learn skill; TP: 5
+TP: 4 ↓
+TP: 3 ↓
+TP: 2 ↓
+TP: 1 ↓
+
+
+
+
+

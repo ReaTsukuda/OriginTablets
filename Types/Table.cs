@@ -75,17 +75,15 @@ namespace OriginTablets.Types
         int lastOffset = 0;
         for (int index = 1; index < Count; index += 1)
         {
-          int result = 0;
+          int result = (this[index - 1].Length * 2) + 1 + lastOffset;
           // The first entry can just write its own length and store it.
           // Beyond that, each entry needs to add the previous entry's offset to its own basic length.
           if (longPointers == true)
           {
-            result = (this[index - 1].Length * 4) + 1 + lastOffset;
             output.Write(result);
           }
           else
           {
-            result = (this[index - 1].Length * 2) + 1 + lastOffset;
             output.Write((ushort)result);
           }
           lastOffset = result;
