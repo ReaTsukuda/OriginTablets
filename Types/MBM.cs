@@ -10,24 +10,49 @@ namespace OriginTablets.Types
 {
   public class MBM : List<string>
   {
-      /// <summary>
-      /// Documented control codes and their variables. The key is the control code.
-      /// If a control code has no variables, then its value is 0. If a control code
-      /// has a variable, than its value is the amount of shorts that comprise that variable.
-      /// </summary>
-      private Dictionary<int, int> RecognizedControlCodes = new Dictionary<int, int>()
-      {
-        // EO2U and on: set NPC telop to the upcoming string, until [00 00] is hit.
-        { 0xF812, 0 },
-        // EOU to EO2U: play voice clip. First short is the voice group ID, second short is the clip ID.
-        { 0xF813, 4 },
-        // EO5 to EON: play voice clip. Variable is a null-terminated ASCII string pointing to the clip.
-        // This requires special handling.
-        { 0xF81B, 0 },
-        // EO4 and on: retrieve skill subheader value. Value is the subheader ID.
-        { 0xF85A, 1 },
-        // EO2U and on: set recognized NPC telop. Value is the NPC telop ID.
-        { 0xF8F9, 1 }
+    /// <summary>
+    /// Documented control codes and their variables. The key is the control code.
+    /// If a control code has no variables, then its value is 0. If a control code
+    /// has a variable, than its value is the amount of shorts that comprise that variable.
+    /// </summary>
+    private Dictionary<int, int> RecognizedControlCodes = new Dictionary<int, int>()
+    {
+      // EO3: linebreak.
+      { 0x8001, 0 },
+      // EO3: new page.
+      { 0x8002, 0 },
+      // EO3: text color. Variable is the text color ID.
+      { 0x8004, 1 },
+      // EO3: guild name.
+      { 0x8040, 0 },
+      // EO2U and on: set NPC telop to the upcoming string, until [00 00] is hit.
+      { 0xF812, 0 },
+      // EOU to EO2U: play voice clip. First short is the voice group ID, second short is the clip ID.
+      { 0xF813, 4 },
+      // EO5 to EON: play voice clip. Variable is a null-terminated ASCII string pointing to the clip.
+      // This requires special handling.
+      { 0xF81B, 0 },
+      // EO4 and on: retrieve skill subheader value. Value is the subheader ID.
+      { 0xF85A, 1 },
+      // EO2U and on: set recognized NPC telop. Value is the NPC telop ID.
+      { 0xF8F9, 1 }
+    };
+
+    /// <summary>
+    /// Strings for making documented control codes more recognizable. You can view comments
+    /// on control codes at RecognizableControlCodes.
+    /// </summary>
+    private Dictionary<int, string> ControlCodeStrings = new Dictionary<int, string>()
+    {
+      { 0x8001, "Linebreak" },
+      { 0x8002, "NewPage" },
+      { 0x8004, "TextColor" },
+      { 0x8040, "GuildName" },
+      { 0xF812, "CustomTelop" },
+      { 0xF813, "Voice" },
+      { 0xF81B, "Voice" },
+      { 0xF85A, "SubheaderValue" },
+      { 0xF8F9, "Telop" }
     };
 
     /// <summary>
@@ -89,14 +114,21 @@ namespace OriginTablets.Types
               }
               // If the prefix byte is less than 0x81, between 0xF0 and 0xF9, or between 0xA0 and 0xE0,
               // then we've hit a control code, and need to prettify it.
-              else if (prefixByte < 0x81 
+              else if (prefixByte < 0x81
                 || (prefixByte >= 0xA0 && prefixByte <= 0xE0)
                 || (prefixByte >= 0xF0 && prefixByte <= 0xF9))
               {
                 byte upperControlCode = reader.ReadByte();
                 byte lowerControlCode = reader.ReadByte();
-                buffer.Append(string.Format("[{0:X2} {1:X2}]", upperControlCode, lowerControlCode));
                 int compositeControlCode = (upperControlCode << 8) + lowerControlCode;
+                if (ControlCodeStrings.ContainsKey(compositeControlCode))
+                {
+                  buffer.Append(string.Format("[{0}]", ControlCodeStrings[compositeControlCode]));
+                }
+                else
+                {
+                  buffer.Append(string.Format("[{0:X2} {1:X2}]", upperControlCode, lowerControlCode));
+                }
                 // We need a special override for EO5 and EON's voice clip control code, since that
                 // precedes a null-terminated ASCII string giving the location of the voice clip.
                 if (compositeControlCode == 0xF81B)
