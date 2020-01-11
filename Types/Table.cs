@@ -23,7 +23,9 @@ namespace OriginTablets.Types
     {
       using (var reader = new BinaryReader(new FileStream(location, FileMode.Open), Encoding.GetEncoding("shift_jis")))
       {
-        var numberOfEntries = reader.ReadUInt16();
+        uint numberOfEntries = 0;
+        if (longPointers == true) { numberOfEntries = reader.ReadUInt32(); }
+        else { numberOfEntries = reader.ReadUInt16(); }
         // We skip parsing the pointers since we can just read entries in sequence.
         // Since all pointers have a consistent length, the amount of bytes that we need to skip
         // can be found through calculating the pointer length multiplied by the number of entries.
