@@ -38,7 +38,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Support\SjisLookupTable.cs" />
+    <Compile Include="Support\SJISTables.cs" />
     <Compile Include="Types\MBM.cs" />
     <Compile Include="Types\Table.cs" />
   </ItemGroup>
