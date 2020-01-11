@@ -129,7 +129,7 @@ namespace OTTests
       }
       if (File.Exists("Resources/EO3SCTModified.tbl") == false)
       {
-        throw new InternalTestFailureException("EO3SCTModified.tbl is missing. Please copy a EO3 skillcustomtable.tbl with the string at index 4 modified to \"MODIFIED NAME\" to OTTests/Resources.");
+        throw new InternalTestFailureException("EO3SCTModified.tbl is missing. Please copy a EO3 skillcustomtable.tbl with the string at index 23 modified to \"MODIFIED LEVEL UP\" to OTTests/Resources.");
       }
       var parsedVanillaTable = new Table("Resources/EO3SCT.tbl", true);
       parsedVanillaTable[23] = "MODIFIED LEVEL UP";
