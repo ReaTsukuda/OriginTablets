@@ -40,40 +40,6 @@ namespace OriginTablets.Types
     };
 
     /// <summary>
-    /// Strings for making documented control codes more recognizable. You can view comments
-    /// on control codes at RecognizableControlCodes.
-    /// </summary>
-    private Dictionary<int, string> ControlCodeStrings = new Dictionary<int, string>()
-    {
-      { 0x8001, "EO3Linebreak" },
-      { 0x8002, "EO3NewPage" },
-      { 0x8004, "EO3TextColor" },
-      { 0x8040, "EO3GuildName" },
-      { 0xF812, "CustomTelop" },
-      { 0xF813, "OldVoice" },
-      { 0xF81B, "Voice" },
-      { 0xF85A, "SubheaderValue" },
-      { 0xF8F9, "Telop" }
-    };
-
-    /// <summary>
-    /// Effectively the inverse of ControlCodeStrings: this is for turning human-readable
-    /// representations of control codes back into control codes.
-    /// </summary>
-    private Dictionary<string, byte[]> StringControlCodes = new Dictionary<string, byte[]>()
-    {
-      { "[EO3Linebreak]", new byte[] { 0x80, 0x01 } },
-      { "[EO3NewPage]", new byte[] { 0x80, 0x02 } },
-      { "[EO3TextColor]", new byte[] { 0x80, 0x04 } },
-      { "[EO3GuildName]", new byte[] { 0x80, 0x40 } },
-      { "[CustomTelop]", new byte[] { 0xF8, 0x12 } },
-      { "[OldVoice]", new byte[] { 0xF8, 0x13 } },
-      { "[Voice]", new byte[] { 0xF8, 0x1B } },
-      { "[SubheaderValue]", new byte[] { 0xF8, 0x5A } },
-      { "[Telop]", new byte[] { 0xF8, 0xF9 } }
-    };
-
-    /// <summary>
     /// For loading and modifying EO text archives (MBMs).
     /// </summary>
     /// <param name="location">The location of the MBM file to load.</param>
@@ -139,14 +105,7 @@ namespace OriginTablets.Types
                 byte upperControlCode = reader.ReadByte();
                 byte lowerControlCode = reader.ReadByte();
                 int compositeControlCode = (upperControlCode << 8) + lowerControlCode;
-                if (ControlCodeStrings.ContainsKey(compositeControlCode))
-                {
-                  buffer.Append(string.Format("[{0}]", ControlCodeStrings[compositeControlCode]));
-                }
-                else
-                {
-                  buffer.Append(string.Format("[{0:X2} {1:X2}]", upperControlCode, lowerControlCode));
-                }
+                buffer.Append(string.Format("[{0:X2} {1:X2}]", upperControlCode, lowerControlCode));
                 // We need a special override for EO5 and EON's voice clip control code, since that
                 // precedes a null-terminated ASCII string giving the location of the voice clip.
                 if (compositeControlCode == 0xF81B)
@@ -241,8 +200,7 @@ namespace OriginTablets.Types
           // So, don't do that.
           if (entry != null)
           {
-            var result = Encoding.Default.GetBytes(ConvertControlCodesToBytes(entry));
-            output.Write(result);
+            output.Write(GetEncodedString(entry));
           }
         }
       }
@@ -251,60 +209,76 @@ namespace OriginTablets.Types
     /// <summary>
     /// Takes a string with human-readable representations of control codes, and
     /// converts the instances of control codes back to control code bytes. Also
-    /// converts strings back into Shift-JIS.
+    /// converts strings back into Shift-JIS bytes.
     /// </summary>
     /// <param name="input">The string to be converted.</param>
-    private string ConvertControlCodesToBytes(string input)
+    private byte[] GetEncodedString(string input)
     {
-      // Gets every unique control code used in the string.
+      // Find each unique control code in the string. For now, it should be
+      // safe to assume that only control codes will use [] characters.
       var controlCodes = Regex.Matches(input, "\\[.*?\\]")
         .Cast<Match>()
         .Select(match => match.Value)
         .Distinct();
-      // Replaces all instances of each unique control code with the appropriate bytes.
-      foreach (string controlCodeString in controlCodes)
+      // We detect and remove control codes here, since otherwise parsing them and
+      // encoding them is a complete nightmare. Every instance of a control code is
+      // logged, and then substituted for 0xFFFF, to be replaced once we've encoded
+      // the string into Shift-JIS.
+      var positionsAndControlCodes = new SortedDictionary<int, string>();
+      // This is used to hold the changed 
+      foreach (string controlCode in controlCodes)
       {
-        // If the control code follows the numerical pattern, then parse the numbers.
-        if (Regex.IsMatch(controlCodeString, "\\[[0-9A-F][0-9A-F] [0-9A-F][0-9A-F]\\]"))
+        // Log where each instance of a control code was.
+        var indices = Regex.Matches(input, controlCode.Replace("[", "\\[").Replace("]", "\\]"))
+          .Cast<Match>()
+          .Select(match => match.Index);
+        // Prepare a buffer for output.
+        var buffer = new StringBuilder(input);
+        foreach (int index in indices)
         {
-          // Get rid of the brackets in the string so we can parse it more easily.
-          string temporaryControlCodeString = controlCodeString.Replace("[", "").Replace("]", "");
-          // All of this weird value coercion stuff is all because C# doesn't easily let you
-          // insert raw bytes into strings. Ugh.
-          string upperControlCodeString = temporaryControlCodeString.Split(' ')[0];
-          char upperControlCode = (char)Convert.ToByte(upperControlCodeString, 16);
-          string lowerControlCodeString = temporaryControlCodeString.Split(' ')[1];
-          char lowerControlCode = (char)Convert.ToByte(lowerControlCodeString, 16);
-          string tokenToReplaceWith = string.Format("{0}{1}", upperControlCode, lowerControlCode);
-          input = input.Replace(controlCodeString, tokenToReplaceWith);
+          positionsAndControlCodes.Add((index * 2), controlCode);
+          // Substitute the control code strings for x instances of 0x0, where
+          // x is the length of the replaced string.
+          for (int controlCodeIndex = 0; controlCodeIndex < controlCode.Length; controlCodeIndex += 1)
+          {
+            buffer[index + controlCodeIndex] = '-';
+          }
         }
-        // Otherwise, replace it with the pattern associated with the known string.
-        else
-        {
-          input = input.Replace(controlCodeString,
-            Encoding.GetEncoding("shift_jis").GetString(StringControlCodes[controlCodeString]));
-        }
+        input = buffer.ToString();
       }
-      // We need a temporary buffer for putting SJIS characters back in,
-      // since modifying input mid-loop would cause an exception.
-      string temporaryInput = input;
-      // Check if each character in the string has an SJIS equivalent. If it does,
-      // replace it. A for loop is used so we can peek ahead and determine if we need
-      // to halt processing for a period of time, to accomodate for the ASCII file paths
-      // used in the EO5/EON voice control code.
+      // Substitute halfwidth characters with fullwidth characters, to prepare for encoding.
+      var fullwidthBuffer = new StringBuilder(input);
       for (int characterIndex = 0; characterIndex < input.Length; characterIndex += 1)
       {
         char character = input[characterIndex];
-        // Peek ahead and see if the upcoming bytes are equal to the EO5/EON voice control code.
-        //if (characterIndex <= (input.Length -))
         if (SJISTables.ToFullwidth.ContainsKey(character))
         {
-          temporaryInput = temporaryInput.Replace(character, SJISTables.ToFullwidth[character]);
+          fullwidthBuffer[characterIndex] = SJISTables.ToFullwidth[character];
         }
       }
-      // Swap the temporary buffer back into the primary string.
-      input = temporaryInput.Replace("[", "").Replace("]", "");
-      return input;
+      input = fullwidthBuffer.ToString();
+      var encodedString = Encoding.GetEncoding("shift_jis").GetBytes(input).ToList();
+      // Substitute all those null characters we injected with the control code bytes.
+      foreach (KeyValuePair<int, string> controlCode in positionsAndControlCodes)
+      {
+        // Replace the first two placeholder null bytes with the control code.
+        string[] splitControlCode = controlCode.Value.Replace("[", "").Replace("]", "").Split(' ');
+        byte upperControlCode = byte.Parse(splitControlCode[0], System.Globalization.NumberStyles.HexNumber);
+        byte lowerControlCode = byte.Parse(splitControlCode[1], System.Globalization.NumberStyles.HexNumber);
+        encodedString[controlCode.Key] = upperControlCode;
+        encodedString[controlCode.Key + 1] = lowerControlCode;
+      }
+      // Now that we've put all the control code bytes back in, we need to remove the
+      // placeholder null bytes.
+      for (int processedControlCodes = 0; processedControlCodes < positionsAndControlCodes.Count(); processedControlCodes += 1)
+      {
+        // We know where to remove stuff from by deducting 12 bytes from the index
+        // for each removal we've already performed. Every placeholder will always be 14 bytes.
+        var removalStartIndex = positionsAndControlCodes.ElementAt(processedControlCodes).Key
+          - (processedControlCodes * 12) + 2;
+        encodedString.RemoveRange(removalStartIndex, 12);
+      }
+      return encodedString.ToArray();
     }
   }
 }
