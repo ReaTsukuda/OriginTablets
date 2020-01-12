@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using OriginTablets.Support;
+using System.Text.RegularExpressions;
 
 namespace OriginTablets.Types
 {
@@ -44,15 +45,32 @@ namespace OriginTablets.Types
     /// </summary>
     private Dictionary<int, string> ControlCodeStrings = new Dictionary<int, string>()
     {
-      { 0x8001, "Linebreak" },
-      { 0x8002, "NewPage" },
-      { 0x8004, "TextColor" },
-      { 0x8040, "GuildName" },
+      { 0x8001, "EO3Linebreak" },
+      { 0x8002, "EO3NewPage" },
+      { 0x8004, "EO3TextColor" },
+      { 0x8040, "EO3GuildName" },
       { 0xF812, "CustomTelop" },
-      { 0xF813, "Voice" },
+      { 0xF813, "OldVoice" },
       { 0xF81B, "Voice" },
       { 0xF85A, "SubheaderValue" },
       { 0xF8F9, "Telop" }
+    };
+
+    /// <summary>
+    /// Effectively the inverse of ControlCodeStrings: this is for turning human-readable
+    /// representations of control codes back into control codes.
+    /// </summary>
+    private Dictionary<string, byte[]> StringControlCodes = new Dictionary<string, byte[]>()
+    {
+      { "[EO3Linebreak]", new byte[] { 0x80, 0x01 } },
+      { "[EO3NewPage]", new byte[] { 0x80, 0x02 } },
+      { "[EO3TextColor]", new byte[] { 0x80, 0x04 } },
+      { "[EO3GuildName]", new byte[] { 0x80, 0x40 } },
+      { "[CustomTelop]", new byte[] { 0xF8, 0x12 } },
+      { "[OldVoice]", new byte[] { 0xF8, 0x13 } },
+      { "[Voice]", new byte[] { 0xF8, 0x1B } },
+      { "[SubheaderValue]", new byte[] { 0xF8, 0x5A } },
+      { "[Telop]", new byte[] { 0xF8, 0xF9 } }
     };
 
     /// <summary>
@@ -193,6 +211,100 @@ namespace OriginTablets.Types
           }
         }
       }
+    }
+
+    /// <summary>
+    /// Save the MBM to a file.
+    /// </summary>
+    /// <param name="location">Where to save the MBM to.</param>
+    public void WriteToFile(string location)
+    {
+      using (var output = new BinaryWriter(new FileStream(location, FileMode.Create), Encoding.GetEncoding("shift_jis")))
+      {
+        // Header writing.
+        output.Write(0x0);
+        output.Write((byte)0x4D);
+        output.Write((byte)0x53);
+        output.Write((byte)0x47);
+        output.Write((byte)0x32); // MSG2 magic number.
+        output.Write(0x00000100);
+        output.Write(0x0); // It's probably safe to write a file size of 0. Probably.
+        output.Write(Count); // Number of entries.
+        output.Write(0x00000020);
+        output.Write(0x0);
+        output.Write(0x0);
+        // Entry section writing.
+        // We do a for loop instead of a foreach to make sure we catch null entries.
+        foreach (string entry in this)
+        {
+          // Throwing a null object to ConvertControlCodeToBytes will cause an exception.
+          // So, don't do that.
+          if (entry != null)
+          {
+            var result = Encoding.Default.GetBytes(ConvertControlCodesToBytes(entry));
+            output.Write(result);
+          }
+        }
+      }
+    }
+
+    /// <summary>
+    /// Takes a string with human-readable representations of control codes, and
+    /// converts the instances of control codes back to control code bytes. Also
+    /// converts strings back into Shift-JIS.
+    /// </summary>
+    /// <param name="input">The string to be converted.</param>
+    private string ConvertControlCodesToBytes(string input)
+    {
+      // Gets every unique control code used in the string.
+      var controlCodes = Regex.Matches(input, "\\[.*?\\]")
+        .Cast<Match>()
+        .Select(match => match.Value)
+        .Distinct();
+      // Replaces all instances of each unique control code with the appropriate bytes.
+      foreach (string controlCodeString in controlCodes)
+      {
+        // If the control code follows the numerical pattern, then parse the numbers.
+        if (Regex.IsMatch(controlCodeString, "\\[[0-9A-F][0-9A-F] [0-9A-F][0-9A-F]\\]"))
+        {
+          // Get rid of the brackets in the string so we can parse it more easily.
+          string temporaryControlCodeString = controlCodeString.Replace("[", "").Replace("]", "");
+          // All of this weird value coercion stuff is all because C# doesn't easily let you
+          // insert raw bytes into strings. Ugh.
+          string upperControlCodeString = temporaryControlCodeString.Split(' ')[0];
+          char upperControlCode = (char)Convert.ToByte(upperControlCodeString, 16);
+          string lowerControlCodeString = temporaryControlCodeString.Split(' ')[1];
+          char lowerControlCode = (char)Convert.ToByte(lowerControlCodeString, 16);
+          string tokenToReplaceWith = string.Format("{0}{1}", upperControlCode, lowerControlCode);
+          input = input.Replace(controlCodeString, tokenToReplaceWith);
+        }
+        // Otherwise, replace it with the pattern associated with the known string.
+        else
+        {
+          input = input.Replace(controlCodeString,
+            Encoding.GetEncoding("shift_jis").GetString(StringControlCodes[controlCodeString]));
+        }
+      }
+      // We need a temporary buffer for putting SJIS characters back in,
+      // since modifying input mid-loop would cause an exception.
+      string temporaryInput = input;
+      // Check if each character in the string has an SJIS equivalent. If it does,
+      // replace it. A for loop is used so we can peek ahead and determine if we need
+      // to halt processing for a period of time, to accomodate for the ASCII file paths
+      // used in the EO5/EON voice control code.
+      for (int characterIndex = 0; characterIndex < input.Length; characterIndex += 1)
+      {
+        char character = input[characterIndex];
+        // Peek ahead and see if the upcoming bytes are equal to the EO5/EON voice control code.
+        //if (characterIndex <= (input.Length -))
+        if (SJISTables.ToFullwidth.ContainsKey(character))
+        {
+          temporaryInput = temporaryInput.Replace(character, SJISTables.ToFullwidth[character]);
+        }
+      }
+      // Swap the temporary buffer back into the primary string.
+      input = temporaryInput.Replace("[", "").Replace("]", "");
+      return input;
     }
   }
 }
