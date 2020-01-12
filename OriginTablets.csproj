@@ -42,5 +42,9 @@
     <Compile Include="Types\MBM.cs" />
     <Compile Include="Types\Table.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Text.RegularExpressions" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
