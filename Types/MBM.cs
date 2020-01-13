@@ -12,6 +12,12 @@ namespace OriginTablets.Types
   public class MBM : List<string>
   {
     /// <summary>
+    /// Whether or not null entries cause the entry index to increment.
+    /// EO3 to EO2U do not do this, EO5 and EON do.
+    /// </summary>
+    private bool NullEntriesWriteIndex = false;
+
+    /// <summary>
     /// Documented control codes and their variables. The key is the control code.
     /// If a control code has no variables, then its value is 0. If a control code
     /// has a variable, than its value is the amount of shorts that comprise that variable.
@@ -67,7 +73,7 @@ namespace OriginTablets.Types
         var buffer = new StringBuilder();
         while (reader.BaseStream.Position < entryTableEndAddress)
         {
-          reader.ReadInt32(); // Entry index. We can ignore this.
+          int entryIndex = reader.ReadInt32();
           uint entryLength = reader.ReadUInt32();
           uint stringPointer = reader.ReadUInt32();
           reader.ReadInt32(); // Always 0x00000000.
@@ -167,6 +173,11 @@ namespace OriginTablets.Types
           else
           {
             Add(null);
+            // If a null entry has a non-zero indiex, then we're dealing with an EO5/EON MBM.
+            if (entryIndex != 0)
+            {
+              NullEntriesWriteIndex = true;
+            }
           }
         }
       }
@@ -178,6 +189,18 @@ namespace OriginTablets.Types
     /// <param name="location">Where to save the MBM to.</param>
     public void WriteToFile(string location)
     {
+      var encodedStrings = new List<byte[]>();
+      foreach (string entry in this)
+      {
+        if (entry != null)
+        {
+          encodedStrings.Add(GetEncodedString(entry));
+        }
+        else
+        {
+          encodedStrings.Add(new byte[0]);
+        }
+      }
       using (var output = new BinaryWriter(new FileStream(location, FileMode.Create), Encoding.GetEncoding("shift_jis")))
       {
         // Header writing.
@@ -192,15 +215,46 @@ namespace OriginTablets.Types
         output.Write(0x00000020);
         output.Write(0x0);
         output.Write(0x0);
+        // How many non-null entries we've written.
+        // This isn't strictly necessary for EON, but I don't see how it would hurt.
+        int internalIndex = 0;
+        // Our current theoretical position in the string section.
+        // The initial position can be calculated as the header length plus
+        // the number of entries multiplied by 0x10. Each entry is 0x10 bytes.
+        int stringPosition = 0x20 + (this.Count() * 0x10);
         // Entry section writing.
         // We do a for loop instead of a foreach to make sure we catch null entries.
-        foreach (string entry in this)
+        foreach (byte[] entry in encodedStrings)
         {
+          // Write the individual components of an entry table entry.
+          if (NullEntriesWriteIndex == true
+            || (NullEntriesWriteIndex == false && entry.Length > 0))
+          {
+            output.Write(internalIndex);
+          }
+          else
+          {
+            output.Write(0x0);
+          }
+          // If the entry is null, write 0 for both length and position.
+          if (entry.Length > 0) { output.Write(entry.Length); }
+          else { output.Write(0x0); }
+          if (entry.Length > 0) { output.Write(stringPosition); }
+          else { output.Write(0x0); }
+          output.Write(0x0);
+          // After we've written a string position, we need to update the current position
+          // for the next string.
+          stringPosition += entry.Length;
           // Throwing a null object to ConvertControlCodeToBytes will cause an exception.
           // So, don't do that.
+          internalIndex += 1;
+        }
+        // String writing.
+        foreach (byte[] entry in encodedStrings)
+        {
           if (entry != null)
           {
-            output.Write(GetEncodedString(entry));
+            output.Write(entry);
           }
         }
       }
@@ -225,7 +279,6 @@ namespace OriginTablets.Types
       // logged, and then substituted for 0xFFFF, to be replaced once we've encoded
       // the string into Shift-JIS.
       var positionsAndControlCodes = new SortedDictionary<int, string>();
-      // This is used to hold the changed 
       foreach (string controlCode in controlCodes)
       {
         // Log where each instance of a control code was.
@@ -278,6 +331,9 @@ namespace OriginTablets.Types
           - (processedControlCodes * 12) + 2;
         encodedString.RemoveRange(removalStartIndex, 12);
       }
+      // Add the 0xFFFF terminator.
+      encodedString.Add(0xFF);
+      encodedString.Add(0xFF);
       return encodedString.ToArray();
     }
   }
