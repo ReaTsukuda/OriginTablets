@@ -46,6 +46,14 @@ namespace OriginTablets.Types
     };
 
     /// <summary>
+    /// This empty constructor is used for serialization.
+    /// </summary>
+    public MBM()
+    {
+
+    }
+
+    /// <summary>
     /// For loading and modifying EO text archives (MBMs).
     /// </summary>
     /// <param name="location">The location of the MBM file to load.</param>

@@ -15,6 +15,14 @@ namespace OriginTablets.Types
   public class Table : List<string>
   {
     /// <summary>
+    /// Constructor for serializing Tables.
+    /// </summary>
+    public Table()
+    {
+
+    }
+
+    /// <summary>
     /// Constructor for loading Table objects from tbl files.
     /// </summary>
     /// <param name="location">The path to the requested tbl file.</param>
